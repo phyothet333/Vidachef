@@ -3,403 +3,556 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Vida Group Samui | Villa Property Services in Koh Samui, Thailand</title>
-<meta name="description" content="Premium villa property services in Koh Samui. Cleaning, private chef, pool & garden maintenance, and full property maintenance.">
+
+<!-- PRIMARY SEO -->
+<title>Vida Group Samui | Villa Cleaning, Private Chef & Property Services — Koh Samui</title>
+<meta name="description" content="Vida Group Samui — Premium villa property services in Koh Samui, Thailand. Villa cleaning, private chef, pool & garden maintenance, and property repairs. Call +66 99 310 6665.">
+<meta name="keywords" content="villa cleaning koh samui, private chef koh samui, pool maintenance koh samui, property management koh samui, housekeeping koh samui, villa services samui, property maintenance koh samui">
+<meta name="author" content="Vida Group Samui">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.vidagroupsamui.com/">
+
+<!-- OPEN GRAPH (Facebook, WhatsApp previews) -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.vidagroupsamui.com/">
+<meta property="og:title" content="Vida Group Samui | Premium Villa Property Services">
+<meta property="og:description" content="Villa cleaning, private chef, pool & garden and property maintenance in Koh Samui. Trusted by 23+ villa owners. Call +66 99 310 6665.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1613977257592-4871e5fcd7c4?w=1200&q=85">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Vida Group Samui">
+
+<!-- TWITTER CARD -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Vida Group Samui | Villa Property Services">
+<meta name="twitter:description" content="Premium villa cleaning, private chef, pool & garden and property maintenance in Koh Samui, Thailand.">
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1613977257592-4871e5fcd7c4?w=1200&q=85">
+
+<!-- LOCAL BUSINESS SCHEMA (tells Google your business details) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Vida Group Samui",
+  "description": "Premium villa property services in Koh Samui, Thailand. Villa cleaning, private chef, pool & garden maintenance, and full property repairs.",
+  "url": "https://www.vidagroupsamui.com",
+  "telephone": "+66993106665",
+  "email": "info@vidagroupsamui.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Koh Samui",
+    "addressRegion": "Surat Thani",
+    "addressCountry": "TH"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "9.5120",
+    "longitude": "100.0136"
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "09:00",
+    "closes": "17:00"
+  },
+  "priceRange": "฿฿",
+  "currenciesAccepted": "THB",
+  "areaServed": "Koh Samui",
+  "serviceType": ["Villa Cleaning","Private Chef","Pool Maintenance","Garden Maintenance","Property Maintenance","Villa Renovation"],
+  "sameAs": [
+    "https://www.vidagroupsamui.com"
+  ]
+}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
-*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-:root {
-  --navy: #0D1B2A;
-  --navy-light: #1B2E45;
-  --gold: #C9A84C;
-  --gold-light: #D4B86A;
-  --white: #FFFFFF;
-  --off-white: #F7F5F0;
-  --gray: #6B6B6B;
-  --light-gray: #E8E6E1;
-}
-html { scroll-behavior: smooth; }
-body { font-family: 'Montserrat', sans-serif; background: var(--white); color: var(--navy); overflow-x: hidden; }
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{--navy:#0D1B2A;--gold:#C9A84C;--gold2:#E2C06A;--white:#fff;--offwhite:#F9F7F4;--gray:#8A8A8A;--lg:#E8E8E8}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;color:#1A1A1A;background:var(--white);overflow-x:hidden}
 
 /* NAV */
-nav {
-  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-  padding: 24px 48px;
-  display: flex; align-items: center; justify-content: space-between;
-  transition: all 0.4s ease;
-}
-nav.scrolled {
-  background: rgba(13, 27, 42, 0.97);
-  padding: 16px 48px;
-  backdrop-filter: blur(10px);
-}
-.nav-logo {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 24px; font-weight: 500;
-  color: var(--white); text-decoration: none; letter-spacing: 2px;
-}
-.nav-logo span { color: var(--gold); }
-.nav-links { display: flex; gap: 40px; list-style: none; }
-.nav-links a {
-  color: rgba(255,255,255,0.85); text-decoration: none;
-  font-size: 11px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase;
-  transition: color 0.3s;
-}
-.nav-links a:hover { color: var(--gold); }
-.hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; }
-.hamburger span { width: 25px; height: 2px; background: white; transition: all 0.3s; }
+nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:center;justify-content:space-between;padding:28px 60px;transition:all .5s}
+nav.solid{background:var(--navy);padding:18px 60px;box-shadow:0 4px 40px rgba(0,0,0,.3)}
+.logo{font-family:'Playfair Display',serif;font-size:22px;color:#fff;text-decoration:none;letter-spacing:3px}
+.logo span{color:var(--gold)}
+.nav-links{display:flex;gap:32px;list-style:none}
+.nav-links a{color:rgba(255,255,255,.75);text-decoration:none;font-size:11px;font-weight:500;letter-spacing:1.5px;text-transform:uppercase;transition:color .3s}
+.nav-links a:hover{color:var(--gold)}
+.nav-cta{padding:10px 24px;border:1px solid var(--gold);color:var(--gold);text-decoration:none;font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;transition:all .3s}
+.nav-cta:hover{background:var(--gold);color:var(--navy)}
+.burger{display:none;flex-direction:column;gap:6px;cursor:pointer}
+.burger span{display:block;width:24px;height:1.5px;background:white}
 
 /* HERO */
-.hero {
-  position: relative; height: 100vh; min-height: 700px;
-  display: flex; align-items: center; justify-content: center;
-  text-align: center; overflow: hidden;
-}
-.hero-bg {
-  position: absolute; inset: 0;
-  background: url('https://images.unsplash.com/photo-1613977257592-4871e5fcd7c4?w=1600&q=80') center/cover no-repeat;
-}
-.hero-overlay {
-  position: absolute; inset: 0;
-  background: linear-gradient(to bottom, rgba(13,27,42,0.7) 0%, rgba(13,27,42,0.5) 50%, rgba(13,27,42,0.8) 100%);
-}
-.hero-content { position: relative; z-index: 2; padding: 0 20px; }
-.hero-overline {
-  font-size: 11px; font-weight: 600; letter-spacing: 4px; text-transform: uppercase;
-  color: var(--gold); margin-bottom: 20px;
-  opacity: 0; animation: fadeUp 0.8s 0.3s forwards;
-}
-.hero-title {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: clamp(56px, 8vw, 96px);
-  font-weight: 300; color: var(--white); line-height: 1.05;
-  opacity: 0; animation: fadeUp 0.8s 0.5s forwards;
-}
-.hero-title span { color: var(--gold); font-style: italic; }
-.hero-tagline {
-  font-size: 13px; font-weight: 300; letter-spacing: 2px;
-  color: rgba(255,255,255,0.8); margin: 24px 0 40px;
-  opacity: 0; animation: fadeUp 0.8s 0.7s forwards;
-}
-.hero-cta { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;
-  opacity: 0; animation: fadeUp 0.8s 0.9s forwards; }
-.btn-primary {
-  padding: 14px 36px; background: var(--gold); color: var(--navy);
-  text-decoration: none; font-size: 11px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase;
-  transition: all 0.3s;
-}
-.btn-primary:hover { background: var(--gold-light); transform: translateY(-2px); }
-.btn-outline {
-  padding: 14px 36px; border: 1px solid rgba(255,255,255,0.6); color: var(--white);
-  text-decoration: none; font-size: 11px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase;
-  transition: all 0.3s;
-}
-.btn-outline:hover { border-color: var(--gold); color: var(--gold); }
-.scroll-indicator {
-  position: absolute; bottom: 32px; left: 50%; transform: translateX(-50%);
-  display: flex; flex-direction: column; align-items: center; gap: 8px;
-  opacity: 0; animation: fadeUp 0.8s 1.2s forwards;
-}
-.scroll-indicator span { font-size: 10px; letter-spacing: 2px; color: rgba(255,255,255,0.5); text-transform: uppercase; }
-.scroll-line { width: 1px; height: 40px; background: linear-gradient(to bottom, rgba(201,168,76,0.8), transparent); animation: scrollPulse 2s infinite; }
+.hero{position:relative;height:100vh;min-height:680px;display:flex;align-items:center;overflow:hidden}
+.hero-slides{position:absolute;inset:0}
+.slide{position:absolute;inset:0;opacity:0;background-size:cover;background-position:center;transition:opacity 1.5s}
+.slide.active{opacity:1}
+.s1{background-image:url('https://images.unsplash.com/photo-1613977257592-4871e5fcd7c4?w=1800&q=85')}
+.s2{background-image:url('https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=1800&q=85')}
+.s3{background-image:url('https://images.unsplash.com/photo-1615571022219-eb45cf7faa9d?w=1800&q=85')}
+.hero-ov{position:absolute;inset:0;background:linear-gradient(105deg,rgba(13,27,42,.88) 0%,rgba(13,27,42,.4) 60%,rgba(13,27,42,.1) 100%)}
+.hero-c{position:relative;z-index:2;padding:0 60px;max-width:760px}
+.h-badge{display:inline-flex;align-items:center;gap:10px;margin-bottom:28px;opacity:0;animation:fu .8s .2s forwards}
+.h-line{width:36px;height:1px;background:var(--gold)}
+.h-badge span{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--gold);font-weight:500}
+.h-title{font-family:'Playfair Display',serif;font-size:clamp(52px,7vw,88px);font-weight:500;color:#fff;line-height:1.05;margin-bottom:24px;opacity:0;animation:fu .9s .4s forwards}
+.h-title em{color:var(--gold);font-style:italic}
+.h-sub{font-size:15px;font-weight:300;color:rgba(255,255,255,.7);line-height:1.8;max-width:480px;margin-bottom:44px;opacity:0;animation:fu .9s .6s forwards}
+.h-btns{display:flex;gap:16px;flex-wrap:wrap;opacity:0;animation:fu .9s .8s forwards}
+.btn-g{padding:16px 40px;background:var(--gold);color:var(--navy);text-decoration:none;font-size:12px;font-weight:600;letter-spacing:2px;text-transform:uppercase;transition:all .3s;display:inline-block;border:none;cursor:pointer;font-family:'Inter',sans-serif}
+.btn-g:hover{background:var(--gold2);transform:translateY(-2px)}
+.btn-o{padding:16px 40px;border:1px solid rgba(255,255,255,.4);color:#fff;text-decoration:none;font-size:12px;font-weight:600;letter-spacing:2px;text-transform:uppercase;transition:all .3s;display:inline-block}
+.btn-o:hover{border-color:var(--gold);color:var(--gold)}
+.h-scroll{position:absolute;bottom:36px;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:8px;z-index:2;opacity:0;animation:fu .8s 1.2s forwards}
+.h-scroll span{font-size:9px;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,.35)}
+.h-bar{width:1px;height:50px;background:linear-gradient(to bottom,var(--gold),transparent);animation:pulse 2s infinite}
+
+/* STRIP */
+.strip{background:var(--gold);padding:16px 60px;display:flex;gap:48px;align-items:center;justify-content:center;flex-wrap:wrap}
+.si{display:flex;align-items:center;gap:10px}
+.si svg{width:15px;height:15px;stroke:var(--navy);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.si span{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--navy)}
+
+/* SECTION HELPERS */
+.slbl{font-size:10px;letter-spacing:4px;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:14px}
+.stitle{font-family:'Playfair Display',serif;font-size:clamp(30px,4vw,46px);font-weight:500;color:var(--navy);margin-bottom:16px}
+.ssub{font-size:14px;color:var(--gray);line-height:1.8;max-width:500px}
 
 /* SERVICES */
-.services { padding: 100px 48px; background: var(--off-white); }
-.section-header { text-align: center; margin-bottom: 64px; }
-.section-overline { font-size: 10px; font-weight: 600; letter-spacing: 4px; text-transform: uppercase; color: var(--gold); margin-bottom: 16px; }
-.section-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(36px, 5vw, 52px); font-weight: 400; color: var(--navy); }
-.section-divider { width: 40px; height: 1px; background: var(--gold); margin: 20px auto 0; }
-.services-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2px; max-width: 1200px; margin: 0 auto; }
-.service-card {
-  background: var(--white); padding: 48px 32px;
-  border-top: 3px solid transparent;
-  transition: all 0.4s ease; cursor: default;
-  opacity: 0; transform: translateY(30px);
-}
-.service-card.visible { opacity: 1; transform: translateY(0); }
-.service-card:hover { border-top-color: var(--gold); transform: translateY(-4px); box-shadow: 0 20px 60px rgba(13,27,42,0.12); }
-.service-icon { width: 48px; height: 48px; margin-bottom: 28px; }
-.service-icon svg { width: 100%; height: 100%; stroke: var(--gold); fill: none; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
-.service-name { font-family: 'Cormorant Garamond', serif; font-size: 22px; font-weight: 500; color: var(--navy); margin-bottom: 16px; }
-.service-desc { font-size: 13px; line-height: 1.8; color: var(--gray); font-weight: 300; }
+.services{padding:120px 60px;background:var(--offwhite)}
+.svc-hdr{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:72px;flex-wrap:wrap;gap:32px}
+.svc-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2px}
+.sc{background:var(--white);padding:48px 32px;position:relative;overflow:hidden;transition:all .4s;cursor:pointer}
+.sc::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:var(--gold);transform:scaleX(0);transform-origin:left;transition:transform .4s}
+.sc:hover::after{transform:scaleX(1)}
+.sc:hover{transform:translateY(-6px);box-shadow:0 24px 60px rgba(13,27,42,.1)}
+.sc-num{font-family:'Playfair Display',serif;font-size:60px;font-weight:400;color:rgba(13,27,42,.04);line-height:1;margin-bottom:20px}
+.sc-ico{width:40px;height:40px;margin-bottom:22px}
+.sc-ico svg{width:100%;height:100%;stroke:var(--gold);fill:none;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}
+.sc-name{font-family:'Playfair Display',serif;font-size:19px;font-weight:500;color:var(--navy);margin-bottom:12px}
+.sc-desc{font-size:13px;line-height:1.9;color:var(--gray);font-weight:300;margin-bottom:18px}
+.sc-from{font-size:11px;color:var(--gold);font-weight:600;letter-spacing:.5px}
+.sc-link{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold);background:none;border:none;cursor:pointer;font-family:'Inter',sans-serif;padding:0;margin-top:8px;display:block;text-align:left}
 
-/* ABOUT */
-.about { padding: 100px 48px; background: var(--navy); }
-.about-inner { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
-.about-content .section-overline { text-align: left; }
-.about-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(36px, 4vw, 52px); font-weight: 300; color: var(--white); line-height: 1.2; margin-bottom: 28px; }
-.about-title em { color: var(--gold); font-style: italic; }
-.about-text { font-size: 14px; line-height: 2; color: rgba(255,255,255,0.65); font-weight: 300; margin-bottom: 16px; }
-.about-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 48px; padding-top: 40px; border-top: 1px solid rgba(201,168,76,0.2); }
-.stat-number { font-family: 'Cormorant Garamond', serif; font-size: 42px; font-weight: 300; color: var(--gold); line-height: 1; }
-.stat-label { font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: rgba(255,255,255,0.4); margin-top: 6px; }
-.about-image-wrapper { position: relative; }
-.about-image { width: 100%; height: 500px; object-fit: cover; }
-.about-image-border { position: absolute; bottom: -20px; right: -20px; width: 100%; height: 100%; border: 1px solid rgba(201,168,76,0.3); z-index: -1; }
+/* CLEANING CALCULATOR */
+.calc-sec{background:var(--navy);padding:100px 60px}
+.calc-inner{max-width:960px;margin:0 auto}
+.calc-hdr{text-align:center;margin-bottom:56px}
+.calc-hdr .stitle{color:#fff}
+.calc-hdr .ssub{margin:0 auto;text-align:center;color:rgba(255,255,255,.45)}
+.calc-body{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}
+.clbl{font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:rgba(255,255,255,.35);margin-bottom:12px;display:block}
+.copts{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:32px}
+.copt{padding:10px 18px;border:1px solid rgba(255,255,255,.12);color:rgba(255,255,255,.5);font-size:13px;cursor:pointer;transition:all .3s;background:transparent;font-family:'Inter',sans-serif}
+.copt.on,.copt:hover{border-color:var(--gold);color:var(--gold);background:rgba(201,168,76,.07)}
+.calc-res{background:rgba(255,255,255,.04);border:1px solid rgba(201,168,76,.2);padding:40px;text-align:center}
+.cr-lbl{font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,.25);margin-bottom:12px}
+.cr-price{font-family:'Playfair Display',serif;font-size:52px;color:var(--gold);font-weight:400;line-height:1}
+.cr-note{font-size:12px;color:rgba(255,255,255,.25);margin-top:10px;line-height:1.7}
+.cr-btn{margin-top:28px;width:100%}
+.mgmt-banner{margin-top:48px;background:rgba(201,168,76,.08);border:1px solid rgba(201,168,76,.2);padding:28px 36px;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap}
+.mgmt-text h4{font-size:14px;font-weight:600;color:#fff;margin-bottom:4px}
+.mgmt-text p{font-size:13px;color:rgba(255,255,255,.4);line-height:1.6}
+.mgmt-text span{color:var(--gold)}
+
+/* CHEF MENU */
+.chef{padding:120px 60px;background:var(--offwhite)}
+.chef-hdr{text-align:center;margin-bottom:72px}
+.chef-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:2px;max-width:1060px;margin:0 auto}
+.ck{background:var(--white);padding:44px 40px;transition:all .3s;position:relative;overflow:hidden}
+.ck::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--gold);transform:scaleY(0);transform-origin:bottom;transition:transform .4s}
+.ck:hover::before{transform:scaleY(1)}
+.ck:hover{box-shadow:0 20px 60px rgba(13,27,42,.07);transform:translateX(3px)}
+.ck-emoji{font-size:28px;margin-bottom:14px}
+.ck-name{font-family:'Playfair Display',serif;font-size:22px;font-weight:500;color:var(--navy);margin-bottom:8px}
+.ck-desc{font-size:13px;color:var(--gray);line-height:1.8;font-weight:300;margin-bottom:20px}
+.ck-prices{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+.ck-p{background:var(--offwhite);padding:8px 14px;font-size:12px;color:var(--navy)}
+.ck-p strong{color:var(--gold);font-family:'Playfair Display',serif;font-size:16px}
+.ck-pax{font-size:12px;color:var(--gray);margin-bottom:18px}
+.ck-note{font-size:11px;color:var(--gray);font-style:italic;margin-bottom:18px}
+.ck-btn{padding:10px 24px;border:1px solid var(--lg);color:var(--navy);font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;cursor:pointer;font-family:'Inter',sans-serif;background:none;transition:all .3s}
+.ck-btn:hover{border-color:var(--gold);color:var(--gold)}
+
+/* WHY */
+.why{display:grid;grid-template-columns:1fr 1fr;min-height:580px}
+.why-img{background:url('https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=1000&q=85') center/cover no-repeat}
+.why-c{background:var(--navy);padding:96px 80px;display:flex;flex-direction:column;justify-content:center}
+.why-c .stitle{color:#fff}
+.wlist{margin-top:44px;display:flex;flex-direction:column;gap:30px}
+.wi{display:flex;gap:20px;align-items:flex-start}
+.wi-n{font-family:'Playfair Display',serif;font-size:30px;color:rgba(201,168,76,.18);font-weight:400;line-height:1;flex-shrink:0;width:40px}
+.wi-t h4{font-size:12px;font-weight:600;color:#fff;letter-spacing:.5px;margin-bottom:5px;text-transform:uppercase}
+.wi-t p{font-size:13px;color:rgba(255,255,255,.35);line-height:1.8;font-weight:300}
+
+/* STATS */
+.stats{background:var(--offwhite);display:grid;grid-template-columns:repeat(4,1fr);gap:2px}
+.stb{background:var(--white);padding:52px 40px;text-align:center}
+.stn{font-family:'Playfair Display',serif;font-size:52px;font-weight:400;color:var(--navy);line-height:1}
+.stn span{color:var(--gold)}
+.stl{font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gray);margin-top:10px;font-weight:500}
+
+/* TESTI */
+.testi{background:var(--navy);padding:96px 60px;text-align:center}
+.t-stars{display:flex;justify-content:center;gap:4px;margin-bottom:28px}
+.t-stars span{color:var(--gold);font-size:16px}
+.t-q{font-family:'Playfair Display',serif;font-size:clamp(18px,2.5vw,28px);font-weight:400;color:#fff;line-height:1.7;max-width:780px;margin:0 auto 24px;font-style:italic}
+.t-a{font-size:11px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold)}
 
 /* CONTACT */
-.contact { padding: 100px 48px; background: var(--off-white); }
-.contact-inner { max-width: 1000px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 80px; }
-.contact-info .section-overline { text-align: left; }
-.contact-title { font-family: 'Cormorant Garamond', serif; font-size: 36px; font-weight: 400; color: var(--navy); margin-bottom: 20px; }
-.contact-desc { font-size: 13px; line-height: 1.9; color: var(--gray); margin-bottom: 40px; }
-.contact-item { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 28px; }
-.contact-item-icon { width: 40px; height: 40px; background: var(--navy); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
-.contact-item-icon svg { width: 18px; height: 18px; stroke: var(--gold); fill: none; stroke-width: 1.5; }
-.contact-item-label { font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: var(--gray); margin-bottom: 4px; }
-.contact-item-value { font-size: 14px; color: var(--navy); font-weight: 400; text-decoration: none; }
-.contact-item-value:hover { color: var(--gold); }
-.contact-form { background: var(--white); padding: 48px; }
-.form-group { margin-bottom: 24px; }
-.form-label { display: block; font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: var(--gray); margin-bottom: 10px; }
-.form-input, .form-textarea {
-  width: 100%; padding: 14px 0; border: none; border-bottom: 1px solid var(--light-gray);
-  background: transparent; font-family: 'Montserrat', sans-serif; font-size: 14px; color: var(--navy);
-  outline: none; transition: border-color 0.3s;
-}
-.form-input:focus, .form-textarea:focus { border-bottom-color: var(--gold); }
-.form-textarea { height: 100px; resize: none; }
-.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
-.btn-submit {
-  width: 100%; padding: 16px; background: var(--navy); color: var(--white);
-  border: none; font-family: 'Montserrat', sans-serif; font-size: 11px;
-  font-weight: 600; letter-spacing: 2px; text-transform: uppercase;
-  cursor: pointer; transition: all 0.3s; margin-top: 8px;
-}
-.btn-submit:hover { background: var(--gold); color: var(--navy); }
+.contact{padding:120px 60px;background:var(--white)}
+.ct-in{max-width:1080px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:96px;align-items:start}
+.ct-desc{font-size:14px;color:var(--gray);line-height:1.9;margin-bottom:44px;font-weight:300}
+.cinfo{display:flex;flex-direction:column;gap:22px}
+.ci-row{display:flex;align-items:center;gap:16px}
+.ci-ico{width:46px;height:46px;background:var(--offwhite);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.ci-ico svg{width:18px;height:18px;stroke:var(--gold);fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.ci-lbl{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gray);margin-bottom:2px}
+.ci-val{font-size:14px;color:var(--navy);font-weight:500;text-decoration:none;display:block}
+.ci-val:hover{color:var(--gold)}
+.ct-form{background:var(--offwhite);padding:52px}
+.ft{font-family:'Playfair Display',serif;font-size:24px;color:var(--navy);margin-bottom:32px}
+.fg{margin-bottom:22px}
+.fl{display:block;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gray);margin-bottom:9px}
+.fi,.fs,.fta{width:100%;padding:13px 0;border:none;border-bottom:1px solid var(--lg);background:transparent;font-family:'Inter',sans-serif;font-size:14px;color:var(--navy);outline:none;transition:border-color .3s}
+.fi:focus,.fs:focus,.fta:focus{border-bottom-color:var(--gold)}
+.fta{height:85px;resize:none}
+.frow{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.fsub{width:100%;margin-top:8px;padding:16px;background:var(--navy);color:#fff;border:none;font-family:'Inter',sans-serif;font-size:11px;font-weight:600;letter-spacing:2px;text-transform:uppercase;cursor:pointer;transition:all .3s}
+.fsub:hover{background:var(--gold);color:var(--navy)}
 
 /* FOOTER */
-footer { background: var(--navy); padding: 40px 48px; text-align: center; border-top: 1px solid rgba(201,168,76,0.15); }
-.footer-logo { font-family: 'Cormorant Garamond', serif; font-size: 20px; color: var(--white); letter-spacing: 2px; margin-bottom: 8px; }
-.footer-logo span { color: var(--gold); }
-.footer-tagline { font-size: 11px; letter-spacing: 2px; color: rgba(255,255,255,0.3); text-transform: uppercase; margin-bottom: 24px; }
-.footer-copy { font-size: 11px; color: rgba(255,255,255,0.2); }
+footer{background:var(--navy);padding:44px 60px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:18px;border-top:1px solid rgba(201,168,76,.1)}
+.fl-logo{font-family:'Playfair Display',serif;font-size:19px;color:#fff;letter-spacing:3px}
+.fl-logo span{color:var(--gold)}
+.fl-links{display:flex;gap:26px}
+.fl-links a{font-size:11px;letter-spacing:1px;text-transform:uppercase;color:rgba(255,255,255,.22);text-decoration:none;transition:color .3s}
+.fl-links a:hover{color:var(--gold)}
+.fl-copy{font-size:11px;color:rgba(255,255,255,.18)}
 
-/* WHATSAPP */
-.whatsapp-btn {
-  position: fixed; bottom: 28px; right: 28px; z-index: 999;
-  width: 56px; height: 56px; background: #25D366; border-radius: 50%;
-  display: flex; align-items: center; justify-content: center;
-  box-shadow: 0 4px 20px rgba(37,211,102,0.4); transition: transform 0.3s;
-  text-decoration: none;
-}
-.whatsapp-btn:hover { transform: scale(1.1); }
-.whatsapp-btn svg { width: 28px; height: 28px; fill: white; }
+/* WA BTN */
+.wa{position:fixed;bottom:28px;right:28px;z-index:999;width:56px;height:56px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 32px rgba(37,211,102,.4);text-decoration:none;transition:transform .3s}
+.wa:hover{transform:scale(1.1)}
+.wa svg{width:26px;height:26px;fill:white}
 
-/* MOBILE NAV */
-.mobile-menu {
-  display: none; position: fixed; inset: 0; background: var(--navy);
-  z-index: 99; flex-direction: column; align-items: center; justify-content: center; gap: 40px;
-}
-.mobile-menu.open { display: flex; }
-.mobile-menu a { font-size: 28px; font-family: 'Cormorant Garamond', serif; color: var(--white); text-decoration: none; letter-spacing: 2px; }
-.mobile-menu a:hover { color: var(--gold); }
+/* MOBILE */
+.mob-nav{display:none;position:fixed;inset:0;background:var(--navy);z-index:190;flex-direction:column;align-items:center;justify-content:center;gap:36px}
+.mob-nav.open{display:flex}
+.mob-nav a{font-family:'Playfair Display',serif;font-size:34px;color:#fff;text-decoration:none}
+.mob-nav a:hover{color:var(--gold)}
 
-/* ANIMATIONS */
-@keyframes fadeUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
-@keyframes scrollPulse { 0%,100% { opacity: 1; } 50% { opacity: 0.3; } }
+/* MODAL */
+.moverlay{display:none;position:fixed;inset:0;background:rgba(13,27,42,.88);z-index:500;align-items:center;justify-content:center;padding:20px}
+.moverlay.open{display:flex}
+.mdl{background:#fff;max-width:640px;width:100%;max-height:88vh;overflow-y:auto;position:relative}
+.mdl-close{position:absolute;top:18px;right:22px;background:none;border:none;font-size:22px;cursor:pointer;color:var(--gray);z-index:10;line-height:1}
+.mdl-hd{background:var(--navy);padding:36px 44px 28px;position:sticky;top:0;z-index:5}
+.mdl-lbl{font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:8px}
+.mdl-title{font-family:'Playfair Display',serif;font-size:26px;color:#fff;font-weight:500}
+.mdl-body{padding:36px 44px}
+.pr-sec{margin-bottom:32px}
+.pr-sec-t{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gray);margin-bottom:14px;padding-bottom:8px;border-bottom:1px solid var(--lg)}
+.pr-row{display:flex;justify-content:space-between;align-items:center;padding:11px 0;border-bottom:1px solid rgba(232,232,232,.5)}
+.pr-row:last-child{border:none}
+.pr-name{font-size:14px;color:var(--navy)}
+.pr-det{font-size:12px;color:var(--gray);margin-top:2px}
+.pr-val{font-family:'Playfair Display',serif;font-size:17px;color:var(--gold);white-space:nowrap;margin-left:16px;flex-shrink:0}
+.mdl-note{font-size:12px;color:var(--gray);text-align:center;margin-top:24px;line-height:1.7;padding:16px;background:var(--offwhite)}
+.mdl-cta{margin-top:20px;text-align:center}
 
-/* RESPONSIVE */
-@media (max-width: 1024px) {
-  .services-grid { grid-template-columns: repeat(2, 1fr); }
-  .about-inner { grid-template-columns: 1fr; gap: 48px; }
-  .about-image { height: 350px; }
-}
-@media (max-width: 768px) {
-  nav { padding: 20px 24px; }
-  nav.scrolled { padding: 14px 24px; }
-  .nav-links { display: none; }
-  .hamburger { display: flex; }
-  .hero-title { font-size: 42px; }
-  .services { padding: 72px 24px; }
-  .services-grid { grid-template-columns: 1fr; gap: 2px; }
-  .about { padding: 72px 24px; }
-  .contact { padding: 72px 24px; }
-  .contact-inner { grid-template-columns: 1fr; gap: 48px; }
-  .contact-form { padding: 32px 24px; }
-  .form-row { grid-template-columns: 1fr; }
-  footer { padding: 32px 24px; }
-}
+@keyframes fu{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+.rev{opacity:0;transform:translateY(28px);transition:opacity .7s,transform .7s}
+.rev.vis{opacity:1;transform:translateY(0)}
+
+@media(max-width:1100px){.svc-grid{grid-template-columns:repeat(2,1fr)}.why{grid-template-columns:1fr}.why-img{height:360px}.stats{grid-template-columns:repeat(2,1fr)}.ct-in{grid-template-columns:1fr;gap:56px}.calc-body{grid-template-columns:1fr}.chef-grid{grid-template-columns:1fr}}
+@media(max-width:768px){nav,nav.solid{padding:20px 24px}.nav-links,.nav-cta{display:none}.burger{display:flex}.hero-c{padding:0 24px}.strip{padding:14px 24px;gap:20px;justify-content:flex-start;overflow-x:auto;flex-wrap:nowrap}.services,.chef,.contact,.testi{padding:80px 24px}.calc-sec{padding:80px 24px}.svc-hdr{flex-direction:column;align-items:flex-start}.svc-grid,.chef-grid{grid-template-columns:1fr}.why-c{padding:64px 24px}.stats{padding:0}.ct-form{padding:32px 20px}.frow{grid-template-columns:1fr}footer{padding:32px 24px;flex-direction:column;text-align:center}.fl-links{justify-content:center}.mgmt-banner{flex-direction:column;text-align:center}.mdl-hd,.mdl-body{padding:28px 24px}}
 </style>
 </head>
 <body>
 
-<!-- NAV -->
 <nav id="nav">
-  <a href="#" class="nav-logo">VIDA<span>.</span></a>
+  <a href="#" class="logo">VIDA<span>.</span></a>
   <ul class="nav-links">
     <li><a href="#services">Services</a></li>
+    <li><a href="#pricing">Pricing</a></li>
+    <li><a href="#chef">Private Chef</a></li>
     <li><a href="#about">About</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
-  <div class="hamburger" id="hamburger">
-    <span></span><span></span><span></span>
-  </div>
+  <a href="#contact" class="nav-cta">Get a Quote</a>
+  <div class="burger" id="burger"><span></span><span></span><span></span></div>
 </nav>
 
-<!-- MOBILE MENU -->
-<div class="mobile-menu" id="mobileMenu">
-  <a href="#services" onclick="closeMobile()">Services</a>
-  <a href="#about" onclick="closeMobile()">About</a>
-  <a href="#contact" onclick="closeMobile()">Contact</a>
+<div class="mob-nav" id="mobNav">
+  <a href="#services" onclick="closeMob()">Services</a>
+  <a href="#pricing" onclick="closeMob()">Pricing</a>
+  <a href="#chef" onclick="closeMob()">Private Chef</a>
+  <a href="#about" onclick="closeMob()">About</a>
+  <a href="#contact" onclick="closeMob()">Contact</a>
 </div>
 
 <!-- HERO -->
 <section class="hero">
-  <div class="hero-bg"></div>
-  <div class="hero-overlay"></div>
-  <div class="hero-content">
-    <p class="hero-overline">Koh Samui, Thailand</p>
-    <h1 class="hero-title">Vida Group<br><span>Samui</span></h1>
-    <p class="hero-tagline">Your Complete Villa Property Services in Koh Samui</p>
-    <div class="hero-cta">
-      <a href="#contact" class="btn-primary">Get in Touch</a>
-      <a href="#services" class="btn-outline">Our Services</a>
+  <div class="hero-slides">
+    <div class="slide s1 active"></div>
+    <div class="slide s2"></div>
+    <div class="slide s3"></div>
+  </div>
+  <div class="hero-ov"></div>
+  <div class="hero-c">
+    <div class="h-badge"><div class="h-line"></div><span>Koh Samui, Thailand</span></div>
+    <h1 class="h-title">Vida Group<br><em>Samui</em></h1>
+    <p class="h-sub">Your complete villa property services in Koh Samui. Cleaning, private chef, pool & garden, and full property maintenance — all under one trusted team.</p>
+    <div class="h-btns">
+      <a href="#pricing" class="btn-g">See Pricing</a>
+      <a href="#contact" class="btn-o">Get in Touch</a>
     </div>
   </div>
-  <div class="scroll-indicator">
-    <div class="scroll-line"></div>
-    <span>Scroll</span>
-  </div>
+  <div class="h-scroll"><div class="h-bar"></div><span>Scroll</span></div>
 </section>
+
+<!-- STRIP -->
+<div class="strip">
+  <div class="si"><svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg><span>5+ Years in Samui</span></div>
+  <div class="si"><svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg><span>23+ Villas Managed</span></div>
+  <div class="si"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg><span>Dedicated Team</span></div>
+  <div class="si"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><span>100% Satisfaction</span></div>
+</div>
 
 <!-- SERVICES -->
 <section class="services" id="services">
-  <div class="section-header">
-    <p class="section-overline">What We Offer</p>
-    <h2 class="section-title">Our Services</h2>
-    <div class="section-divider"></div>
+  <div class="svc-hdr rev">
+    <div>
+      <p class="slbl">What We Offer</p>
+      <h2 class="stitle">Our Services</h2>
+      <p class="ssub">Everything your villa needs managed by one reliable team. No need to juggle multiple vendors.</p>
+    </div>
+    <a href="#contact" class="btn-g">Request a Service</a>
   </div>
-  <div class="services-grid">
-    <div class="service-card">
-      <div class="service-icon">
-        <svg viewBox="0 0 48 48"><path d="M24 4L4 18v26h12V30h16v14h12V18L24 4z"/></svg>
-      </div>
-      <h3 class="service-name">Villa Cleaning</h3>
-      <p class="service-desc">Comprehensive housekeeping for villas and condos. Daily housekeeping, deep cleaning, move-in/out cleans and post-event cleaning.</p>
+  <div class="svc-grid">
+    <div class="sc rev">
+      <div class="sc-num">01</div>
+      <div class="sc-ico"><svg viewBox="0 0 48 48"><path d="M24 4L4 20v24h12V32h16v12h12V20L24 4z"/></svg></div>
+      <h3 class="sc-name">Villa Cleaning</h3>
+      <p class="sc-desc">Daily housekeeping, checkout cleans, deep cleaning and move-out cleans. Tailored to your villa's schedule and standards.</p>
+      <p class="sc-from">From ฿1,000</p>
+      <button class="sc-link" onclick="openModal('cleaning')">View full pricing →</button>
     </div>
-    <div class="service-card">
-      <div class="service-icon">
-        <svg viewBox="0 0 48 48"><path d="M8 40h32M12 40V20M36 40V20M6 20h36M24 8l-4 4h8l-4-4zM16 20v-4c0-4.4 3.6-8 8-8s8 3.6 8 8v4"/></svg>
-      </div>
-      <h3 class="service-name">Private Chef</h3>
-      <p class="service-desc">Exquisite in-villa dining experiences. From authentic Thai cuisine to international gourmet dishes, customized to your preferences.</p>
+    <div class="sc rev">
+      <div class="sc-num">02</div>
+      <div class="sc-ico"><svg viewBox="0 0 48 48"><path d="M8 40h32M16 40V24M32 40V24M4 24h40M24 8l-6 6h12l-6-6z"/></svg></div>
+      <h3 class="sc-name">Private Chef</h3>
+      <p class="sc-desc">In-villa breakfast, Thai set dinners and BBQ & grill experiences. Ingredients, chef and full clean-up included.</p>
+      <p class="sc-from">From ฿900/person</p>
+      <button class="sc-link" onclick="document.getElementById('chef').scrollIntoView({behavior:'smooth'})">View menu & pricing →</button>
     </div>
-    <div class="service-card">
-      <div class="service-icon">
-        <svg viewBox="0 0 48 48"><circle cx="24" cy="20" r="10"/><path d="M8 40c0-8.8 7.2-16 16-16s16 7.2 16 16M24 10V4M18 12l-4-4M30 12l4-4"/></svg>
-      </div>
-      <h3 class="service-name">Pool & Garden</h3>
-      <p class="service-desc">Expert maintenance for your pool and tropical gardens. Regular cleaning, water treatment, landscaping and greenery care.</p>
+    <div class="sc rev">
+      <div class="sc-num">03</div>
+      <div class="sc-ico"><svg viewBox="0 0 48 48"><circle cx="24" cy="22" r="12"/><path d="M24 10V4M14 14l-4-4M34 14l4-4M12 22H6M42 22h-6M14 30l-4 4M34 30l4 4M24 34v8"/></svg></div>
+      <h3 class="sc-name">Pool & Garden</h3>
+      <p class="sc-desc">Weekly pool cleaning, chemical balancing, tropical garden care and landscaping. All-inclusive monthly packages available.</p>
+      <p class="sc-from">From ฿2,000/month</p>
+      <button class="sc-link" onclick="openModal('pool')">View full pricing →</button>
     </div>
-    <div class="service-card">
-      <div class="service-icon">
-        <svg viewBox="0 0 48 48"><rect x="8" y="8" width="32" height="32" rx="2"/><path d="M16 20h16M16 28h10M32 28l4 4-4 4"/></svg>
-      </div>
-      <h3 class="service-name">Property Maintenance</h3>
-      <p class="service-desc">Full property repairs and renovation. Painting, electrical, plumbing, carpentry and everything your villa needs to stay in perfect condition.</p>
+    <div class="sc rev">
+      <div class="sc-num">04</div>
+      <div class="sc-ico"><svg viewBox="0 0 48 48"><rect x="6" y="6" width="36" height="36" rx="2"/><path d="M16 22h16M16 30h10M34 26l6 6-6 6"/></svg></div>
+      <h3 class="sc-name">Property Maintenance</h3>
+      <p class="sc-desc">AC servicing, electrical, plumbing, painting, carpentry and full renovation. One call, we handle it all.</p>
+      <p class="sc-from">From ฿500 visit fee</p>
+      <button class="sc-link" onclick="openModal('maintenance')">View full pricing →</button>
     </div>
   </div>
 </section>
 
-<!-- ABOUT -->
-<section class="about" id="about">
-  <div class="about-inner">
-    <div class="about-content">
-      <p class="section-overline">About Us</p>
-      <h2 class="about-title">Your Trusted Partner<br>in <em>Paradise</em></h2>
-      <p class="about-text">Vida Group Samui was born from a passion for exceptional hospitality and a deep love for Koh Samui. We understand that your villa is more than a property — it's your sanctuary, your investment, and your slice of paradise.</p>
-      <p class="about-text">Our team of dedicated professionals delivers premium services with attention to detail that matches the beauty of your surroundings. From daily housekeeping to full property renovation, we ensure every aspect of your villa is handled with care and discretion.</p>
-      <div class="about-stats">
-        <div>
-          <div class="stat-number">5+</div>
-          <div class="stat-label">Years Experience</div>
+<!-- CLEANING CALCULATOR -->
+<section class="calc-sec" id="pricing">
+  <div class="calc-inner">
+    <div class="calc-hdr rev">
+      <p class="slbl" style="color:var(--gold)">Cleaning Pricing</p>
+      <h2 class="stitle" style="color:#fff;margin-bottom:12px">Instant Price Estimate</h2>
+      <p class="ssub" style="color:rgba(255,255,255,.4);margin:0 auto;text-align:center">Select your villa size and service type to get an instant estimate.</p>
+    </div>
+    <div class="calc-body rev">
+      <div>
+        <span class="clbl">Villa Size</span>
+        <div class="copts" id="bedOpts">
+          <button class="copt on" data-bed="1-3">1–3 Bedrooms</button>
+          <button class="copt" data-bed="4-7">4–7 Bedrooms</button>
         </div>
-        <div>
-          <div class="stat-number">23+</div>
-          <div class="stat-label">Villas Served</div>
+        <span class="clbl">Service Type</span>
+        <div class="copts" id="svcOpts">
+          <button class="copt on" data-svc="checkout">Checkout Clean</button>
+          <button class="copt" data-svc="staying-no">Staying Clean</button>
+          <button class="copt" data-svc="staying-yes">Staying + Linen Change</button>
+          <button class="copt" data-svc="deep">Deep Clean</button>
+          <button class="copt" data-svc="moveout">Move-out Clean</button>
         </div>
-        <div>
-          <div class="stat-number">100%</div>
-          <div class="stat-label">Satisfaction</div>
+        <span class="clbl">Add-ons</span>
+        <div class="copts" id="addOpts">
+          <button class="copt" data-add="extra-bed">+ Extra Bedroom (฿300)</button>
+          <button class="copt" data-add="garbage">+ Garbage Collection (฿300)</button>
         </div>
       </div>
+      <div class="calc-res">
+        <div class="cr-lbl">Estimated Price</div>
+        <div class="cr-price" id="calcPrice">฿1,200</div>
+        <div class="cr-note" id="calcNote">Checkout clean · 1–3 bed villa<br>Starting price — final confirmed on-site</div>
+        <a href="#" class="btn-g cr-btn" id="calcBook" onclick="bookCalc(event)">Book via WhatsApp →</a>
+      </div>
     </div>
-    <div class="about-image-wrapper">
-      <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80" alt="Luxury villa in Koh Samui" class="about-image">
-      <div class="about-image-border"></div>
+    <!-- MANAGEMENT BANNER -->
+    <div class="mgmt-banner rev">
+      <div class="mgmt-text">
+        <h4>🏢 Property Manager or Management Company?</h4>
+        <p>Managing <span>3 or more villas</span>? We offer special discounted rates and priority scheduling for property management companies. Contact us to discuss a custom package.</p>
+      </div>
+      <a href="https://wa.me/66993106665?text=Hi Vida Group, I manage multiple villas and would like to discuss management rates." target="_blank" class="btn-g" style="white-space:nowrap;flex-shrink:0">Get Special Rates →</a>
     </div>
   </div>
+</section>
+
+<!-- PRIVATE CHEF MENU -->
+<section class="chef" id="chef">
+  <div class="chef-hdr rev">
+    <p class="slbl">In-Villa Dining</p>
+    <h2 class="stitle">Private Chef Menu</h2>
+    <p class="ssub" style="margin:0 auto;text-align:center">All prices include chef, fresh ingredients, full service and clean-up. Minimum 24 hours notice required.</p>
+  </div>
+  <div class="chef-grid">
+    <div class="ck rev">
+      <div class="ck-emoji">🌅</div>
+      <h3 class="ck-name">Villa Breakfast</h3>
+      <p class="ck-desc">Full breakfast service prepared and served at your villa. Fresh ingredients, hot dishes and everything cleaned up after.</p>
+      <div class="ck-prices">
+        <div class="ck-p"><strong>฿900</strong> / person</div>
+      </div>
+      <p class="ck-pax">Minimum 2 persons</p>
+      <p class="ck-note">✓ Chef + ingredients + clean-up included</p>
+      <button class="ck-btn" onclick="bookChef('Villa Breakfast - ฿900/person (min 2)')">Book via WhatsApp →</button>
+    </div>
+    <div class="ck rev">
+      <div class="ck-emoji">🛁</div>
+      <h3 class="ck-name">Floating Pool Breakfast</h3>
+      <p class="ck-desc">A romantic private breakfast tray set up in your pool. The iconic Koh Samui experience — for couples only.</p>
+      <div class="ck-prices">
+        <div class="ck-p"><strong>฿2,500</strong> / booking</div>
+      </div>
+      <p class="ck-pax">2 persons only · Fixed all-inclusive price</p>
+      <p class="ck-note">✓ Pool tray setup + chef + clean-up</p>
+      <button class="ck-btn" onclick="bookChef('Floating Pool Breakfast - ฿2,500 for 2 pax')">Book via WhatsApp →</button>
+    </div>
+    <div class="ck rev">
+      <div class="ck-emoji">🍜</div>
+      <h3 class="ck-name">Thai Set Dinner</h3>
+      <p class="ck-desc">An authentic Thai feast prepared in your villa. Multi-dish spread of classic Thai favourites — fully customized to your preferences.</p>
+      <div class="ck-prices">
+        <div class="ck-p">1–3 pax<br><strong>฿3,500</strong></div>
+        <div class="ck-p">4–6 pax<br><strong>฿5,500</strong></div>
+        <div class="ck-p">7–10 pax<br><strong>฿9,000</strong></div>
+        <div class="ck-p">11–14 pax<br><strong>฿12,500</strong></div>
+        <div class="ck-p">15–20 pax<br><strong>฿18,000</strong></div>
+      </div>
+      <p class="ck-note">✓ Chef + ingredients + service + clean-up</p>
+      <button class="ck-btn" onclick="bookChef('Thai Set Dinner')">Book via WhatsApp →</button>
+    </div>
+    <div class="ck rev">
+      <div class="ck-emoji">🔥</div>
+      <h3 class="ck-name">BBQ & Grill</h3>
+      <p class="ck-desc">Professional BBQ setup at your villa with full chef service and equipment. Ingredients selected à la carte separately.</p>
+      <div class="ck-prices">
+        <div class="ck-p">1–3 pax<br><strong>฿2,500</strong></div>
+        <div class="ck-p">4–6 pax<br><strong>฿3,500</strong></div>
+        <div class="ck-p">7–9 pax<br><strong>฿5,000</strong></div>
+        <div class="ck-p">10–12 pax<br><strong>฿7,000</strong></div>
+      </div>
+      <p class="ck-note">✓ Chef + equipment + clean-up · Ingredients quoted separately</p>
+      <button class="ck-btn" onclick="bookChef('BBQ & Grill')">Book via WhatsApp →</button>
+    </div>
+  </div>
+  <div style="text-align:center;margin-top:48px;padding:28px;background:var(--white);max-width:640px;margin-left:auto;margin-right:auto">
+    <p style="font-size:13px;color:var(--gray);line-height:1.8">🛒 <strong style="color:var(--navy)">Grocery Shopping Service also available</strong> — we do the market run for you.<br>From ฿500 + market cost + 15% (location/access may affect fee)</p>
+    <button onclick="bookChef('Grocery Shopping Service')" class="ck-btn" style="margin-top:16px">Enquire about Grocery Service →</button>
+  </div>
+</section>
+
+<!-- WHY -->
+<section class="why" id="about">
+  <div class="why-img"></div>
+  <div class="why-c">
+    <p class="slbl">Why Choose Us</p>
+    <h2 class="stitle">Your Trusted Partner<br>in Paradise</h2>
+    <div class="wlist">
+      <div class="wi"><div class="wi-n">01</div><div class="wi-t"><h4>One Team, Everything Covered</h4><p>No need to manage multiple vendors. From cleaning to renovation — one call, one team, full accountability.</p></div></div>
+      <div class="wi"><div class="wi-n">02</div><div class="wi-t"><h4>Trusted by Villa Owners</h4><p>We manage 23+ villas across Koh Samui. Owners trust us to care for their most valuable assets.</p></div></div>
+      <div class="wi"><div class="wi-n">03</div><div class="wi-t"><h4>Always Responsive</h4><p>Fast WhatsApp replies, reliable scheduling and consistent quality every visit.</p></div></div>
+      <div class="wi"><div class="wi-n">04</div><div class="wi-t"><h4>Koh Samui Specialists</h4><p>5+ years on the island. We know the villas, the climate and exactly what it takes to maintain them.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats">
+  <div class="stb rev"><div class="stn">5<span>+</span></div><div class="stl">Years Experience</div></div>
+  <div class="stb rev"><div class="stn">23<span>+</span></div><div class="stl">Villas Served</div></div>
+  <div class="stb rev"><div class="stn">4</div><div class="stl">Core Services</div></div>
+  <div class="stb rev"><div class="stn">100<span>%</span></div><div class="stl">Satisfaction</div></div>
+</div>
+
+<!-- TESTIMONIAL -->
+<section class="testi">
+  <div class="t-stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+  <p class="t-q">"Vida Group Samui has been managing our villas for years. The team is professional, reliable and genuinely cares about the properties. We wouldn't trust anyone else."</p>
+  <p class="t-a">— Adam K., Villa Portfolio Owner, Koh Samui</p>
 </section>
 
 <!-- CONTACT -->
 <section class="contact" id="contact">
-  <div class="section-header">
-    <p class="section-overline">Get in Touch</p>
-    <h2 class="section-title">Contact Us</h2>
-    <div class="section-divider"></div>
-  </div>
-  <div class="contact-inner">
-    <div class="contact-info">
-      <p class="contact-desc">Whether you're a property owner seeking premium management or a guest wanting to elevate your stay, we're here to help.</p>
-      <div class="contact-item">
-        <div class="contact-item-icon">
-          <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.02 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92v2z"/></svg>
+  <div class="ct-in">
+    <div class="rev">
+      <p class="slbl">Get in Touch</p>
+      <h2 class="stitle">Let's Discuss<br>Your Villa</h2>
+      <p class="ct-desc">Whether you need a one-time clean, a private dining experience, or full property management — we're ready to help.</p>
+      <div class="cinfo">
+        <div class="ci-row">
+          <div class="ci-ico"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.02 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92v2z"/></svg></div>
+          <div><div class="ci-lbl">Phone & WhatsApp</div><a href="tel:+66993106665" class="ci-val">+66 99 310 6665</a></div>
         </div>
-        <div>
-          <div class="contact-item-label">Phone & WhatsApp</div>
-          <a href="tel:+66993106665" class="contact-item-value">+66 99 310 6665</a>
+        <div class="ci-row">
+          <div class="ci-ico"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+          <div><div class="ci-lbl">Email</div><a href="mailto:info@vidagroupsamui.com" class="ci-val">info@vidagroupsamui.com</a></div>
         </div>
-      </div>
-      <div class="contact-item">
-        <div class="contact-item-icon">
-          <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-        </div>
-        <div>
-          <div class="contact-item-label">Email</div>
-          <a href="mailto:info@vidagroupsamui.com" class="contact-item-value">info@vidagroupsamui.com</a>
-        </div>
-      </div>
-      <div class="contact-item">
-        <div class="contact-item-icon">
-          <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-        </div>
-        <div>
-          <div class="contact-item-label">Location</div>
-          <span class="contact-item-value">Koh Samui, Thailand</span>
+        <div class="ci-row">
+          <div class="ci-ico"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <div><div class="ci-lbl">Location</div><span class="ci-val">Koh Samui, Surat Thani, Thailand</span></div>
         </div>
       </div>
     </div>
-    <div class="contact-form">
-      <form id="contactForm">
-        <div class="form-row">
-          <div class="form-group">
-            <label class="form-label">Name</label>
-            <input type="text" class="form-input" id="name" placeholder="Your name">
-          </div>
-          <div class="form-group">
-            <label class="form-label">Email</label>
-            <input type="email" class="form-input" id="email" placeholder="Your email">
-          </div>
+    <div class="ct-form rev">
+      <h3 class="ft">Send Us a Message</h3>
+      <form id="ctForm">
+        <div class="frow">
+          <div class="fg"><label class="fl">Name</label><input type="text" class="fi" id="fn" placeholder="Your name"></div>
+          <div class="fg"><label class="fl">Email</label><input type="email" class="fi" id="fe" placeholder="Your email"></div>
         </div>
-        <div class="form-group">
-          <label class="form-label">Service</label>
-          <select class="form-input" id="service">
+        <div class="fg">
+          <label class="fl">Service Needed</label>
+          <select class="fs" id="fs">
             <option value="">Select a service</option>
             <option>Villa Cleaning</option>
             <option>Private Chef</option>
             <option>Pool & Garden</option>
             <option>Property Maintenance</option>
+            <option>Property Management (3+ villas)</option>
             <option>Multiple Services</option>
           </select>
         </div>
-        <div class="form-group">
-          <label class="form-label">Message</label>
-          <textarea class="form-textarea" id="message" placeholder="Tell us about your needs..."></textarea>
-        </div>
-        <button type="submit" class="btn-submit">Send via WhatsApp</button>
+        <div class="fg"><label class="fl">Message</label><textarea class="fta" id="fm" placeholder="Tell us about your villa and what you need..."></textarea></div>
+        <button type="submit" class="fsub">Send via WhatsApp →</button>
       </form>
     </div>
   </div>
@@ -407,50 +560,196 @@ footer { background: var(--navy); padding: 40px 48px; text-align: center; border
 
 <!-- FOOTER -->
 <footer>
-  <div class="footer-logo">VIDA<span>.</span></div>
-  <p class="footer-tagline">Your Complete Villa Property Services in Koh Samui</p>
-  <p class="footer-copy">&copy; 2026 Vida Group Samui Co., Ltd. All rights reserved.</p>
+  <div class="fl-logo">VIDA<span>.</span></div>
+  <div class="fl-links">
+    <a href="#services">Services</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#chef">Private Chef</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <p class="fl-copy">&copy; 2026 Vida Group Samui Co., Ltd.</p>
 </footer>
 
-<!-- WHATSAPP -->
-<a href="https://wa.me/66993106665" target="_blank" class="whatsapp-btn" aria-label="WhatsApp">
-  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+<!-- PRICING MODALS -->
+<div class="moverlay" id="modal-cleaning">
+  <div class="mdl">
+    <button class="mdl-close" onclick="closeModal('cleaning')">✕</button>
+    <div class="mdl-hd"><div class="mdl-lbl">Housekeeping</div><div class="mdl-title">Cleaning Pricing Guide</div></div>
+    <div class="mdl-body">
+      <div class="pr-sec">
+        <div class="pr-sec-t">Checkout Cleaning</div>
+        <div class="pr-row"><div><div class="pr-name">1–3 Bedroom Villa</div><div class="pr-det">All rooms, bathrooms, kitchen, living areas</div></div><div class="pr-val">฿1,200–1,800</div></div>
+        <div class="pr-row"><div><div class="pr-name">4–7 Bedroom Villa</div><div class="pr-det">Full villa clean, price varies by size</div></div><div class="pr-val">From ฿2,000</div></div>
+        <div class="pr-row"><div><div class="pr-name">Extra Bedroom (add-on)</div><div class="pr-det">Beyond standard villa size</div></div><div class="pr-val">From ฿300</div></div>
+      </div>
+      <div class="pr-sec">
+        <div class="pr-sec-t">Regular / Staying Cleans</div>
+        <div class="pr-row"><div><div class="pr-name">Staying Clean — No Linen Change</div><div class="pr-det">Tidy, surfaces, bathrooms, floors</div></div><div class="pr-val">From ฿1,000</div></div>
+        <div class="pr-row"><div><div class="pr-name">Staying Clean — With Linen Change</div><div class="pr-det">Same as checkout clean price</div></div><div class="pr-val">Checkout rate</div></div>
+      </div>
+      <div class="pr-sec">
+        <div class="pr-sec-t">Deep & Move-Out Cleans</div>
+        <div class="pr-row"><div><div class="pr-name">Deep Clean</div><div class="pr-det">Appliances, tiles, grout, fixtures</div></div><div class="pr-val">From ฿2,500</div></div>
+        <div class="pr-row"><div><div class="pr-name">Move-out / End-of-Tenancy</div><div class="pr-det">Full villa at end of long stay</div></div><div class="pr-val">From ฿2,500</div></div>
+      </div>
+      <div class="pr-sec">
+        <div class="pr-sec-t">Additional Services</div>
+        <div class="pr-row"><div><div class="pr-name">Garbage Collection</div><div class="pr-det">Weekly pickup & disposal</div></div><div class="pr-val">฿300/visit · ฿1,500/month</div></div>
+        <div class="pr-row"><div><div class="pr-name">Laundry — Standard Linen Set</div><div class="pr-det">Per bedroom: sheets, duvet, pillowcases, towels</div></div><div class="pr-val">฿300/set</div></div>
+      </div>
+      <div class="mdl-note">All prices are starting prices. Final price confirmed before work begins based on villa size and condition. <strong>Managing 3+ villas?</strong> Contact us for special management rates.</div>
+      <div class="mdl-cta"><a href="https://wa.me/66993106665?text=Hi, I'd like to book a cleaning service." target="_blank" class="btn-g">Book via WhatsApp</a></div>
+    </div>
+  </div>
+</div>
+
+<div class="moverlay" id="modal-pool">
+  <div class="mdl">
+    <button class="mdl-close" onclick="closeModal('pool')">✕</button>
+    <div class="mdl-hd"><div class="mdl-lbl">Pool & Garden</div><div class="mdl-title">Pool & Garden Pricing</div></div>
+    <div class="mdl-body">
+      <div class="pr-sec">
+        <div class="pr-sec-t">Pool Service</div>
+        <div class="pr-row"><div><div class="pr-name">Monthly Pool Service</div><div class="pr-det">4 visits/month · cleaning, skimming, brushing, equipment check</div></div><div class="pr-val">From ฿2,000/mo</div></div>
+        <div class="pr-row"><div><div class="pr-name">Pool Chemicals</div><div class="pr-det">Chlorine, pH balance, algaecide as needed</div></div><div class="pr-val">Cost + 15%</div></div>
+      </div>
+      <div class="pr-sec">
+        <div class="pr-sec-t">Garden Service</div>
+        <div class="pr-row"><div><div class="pr-name">Monthly Garden Service</div><div class="pr-det">4 visits/month · mowing, trimming, tidying, watering</div></div><div class="pr-val">From ฿2,000/mo</div></div>
+      </div>
+      <div class="mdl-note">Pool chemicals billed separately at cost + 15%. Additional visits quoted on request. Bundle pool + garden for best rates.</div>
+      <div class="mdl-cta"><a href="https://wa.me/66993106665?text=Hi, I'd like to enquire about pool and garden services." target="_blank" class="btn-g">Enquire via WhatsApp</a></div>
+    </div>
+  </div>
+</div>
+
+<div class="moverlay" id="modal-maintenance">
+  <div class="mdl">
+    <button class="mdl-close" onclick="closeModal('maintenance')">✕</button>
+    <div class="mdl-hd"><div class="mdl-lbl">Property Maintenance</div><div class="mdl-title">Maintenance Pricing</div></div>
+    <div class="mdl-body">
+      <div class="pr-sec">
+        <div class="pr-sec-t">Visit / Inspection Fee</div>
+        <div class="pr-row"><div><div class="pr-name">Standard Visit (9AM–5PM)</div><div class="pr-det">Mon–Sun, any issue — AC, electrical, plumbing, handyman</div></div><div class="pr-val">฿500</div></div>
+        <div class="pr-row"><div><div class="pr-name">After Hours / Next Day Rush</div><div class="pr-det">After 5PM · Before 9AM · Same-day urgent</div></div><div class="pr-val">฿800</div></div>
+      </div>
+      <div class="pr-sec">
+        <div class="pr-sec-t">Air Conditioning</div>
+        <div class="pr-row"><div><div class="pr-name">Full AC Clean</div><div class="pr-det">Indoor + outdoor unit</div></div><div class="pr-val">From ฿1,000</div></div>
+        <div class="pr-row"><div><div class="pr-name">Gas Top-Up (R32/R410a)</div><div class="pr-det">Per unit</div></div><div class="pr-val">From ฿1,000</div></div>
+        <div class="pr-row"><div><div class="pr-name">Bi-Annual AC Package</div><div class="pr-det">Per unit every 6 months · full clean + gas top-up + inspection</div></div><div class="pr-val">From ฿1,500/unit</div></div>
+      </div>
+      <div class="pr-sec">
+        <div class="pr-sec-t">General Repairs & Renovation</div>
+        <div class="pr-row"><div><div class="pr-name">All Repair Work</div><div class="pr-det">Electrical, plumbing, painting, carpentry, renovation</div></div><div class="pr-val">Quoted on-site</div></div>
+        <div class="pr-row"><div><div class="pr-name">Parts & Materials</div><div class="pr-det">All parts at market cost</div></div><div class="pr-val">Cost + 20%</div></div>
+      </div>
+      <div class="pr-sec">
+        <div class="pr-sec-t">Pest Control</div>
+        <div class="pr-row"><div><div class="pr-name">Annual Pest Control Contract</div><div class="pr-det">Insects, cockroaches, ants, mosquito fogging, rodents</div></div><div class="pr-val">From ฿15,000/yr</div></div>
+      </div>
+      <div class="mdl-note">Visit fee applies to all ad-hoc calls. All repair work assessed and approved before proceeding. No visit fee for scheduled bi-annual AC package.</div>
+      <div class="mdl-cta"><a href="https://wa.me/66993106665?text=Hi, I need property maintenance assistance." target="_blank" class="btn-g">Call for Assistance →</a></div>
+    </div>
+  </div>
+</div>
+
+<!-- WA BTN -->
+<a href="https://wa.me/66993106665" target="_blank" class="wa" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
 </a>
 
 <script>
 // Nav scroll
-window.addEventListener('scroll', () => {
-  document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 50);
+window.addEventListener('scroll',()=>document.getElementById('nav').classList.toggle('solid',scrollY>60));
+
+// Burger
+document.getElementById('burger').addEventListener('click',()=>document.getElementById('mobNav').classList.toggle('open'));
+function closeMob(){document.getElementById('mobNav').classList.remove('open')}
+
+// Slideshow
+let si=0;const slides=document.querySelectorAll('.slide');
+setInterval(()=>{slides[si].classList.remove('active');si=(si+1)%slides.length;slides[si].classList.add('active');},5000);
+
+// Reveal
+const ro=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('vis');ro.unobserve(e.target)}});},{threshold:0.08});
+document.querySelectorAll('.rev').forEach((el,i)=>{el.style.transitionDelay=(i%4*.1)+'s';ro.observe(el);});
+
+// MODALS
+function openModal(id){document.getElementById('modal-'+id).classList.add('open');document.body.style.overflow='hidden'}
+function closeModal(id){document.getElementById('modal-'+id).classList.remove('open');document.body.style.overflow=''}
+document.querySelectorAll('.moverlay').forEach(m=>m.addEventListener('click',function(e){if(e.target===this){this.classList.remove('open');document.body.style.overflow=''}}));
+
+// CALCULATOR
+const prices={
+  'checkout':{'1-3':[1200,1800],'4-7':[2000,3000]},
+  'staying-no':{'1-3':[1000,1400],'4-7':[1500,2500]},
+  'staying-yes':{'1-3':[1200,1800],'4-7':[2000,3000]},
+  'deep':{'1-3':[2500,3500],'4-7':[3500,5000]},
+  'moveout':{'1-3':[2500,3500],'4-7':[3500,5500]}
+};
+const svcNames={'checkout':'Checkout Clean','staying-no':'Staying Clean (no linen)','staying-yes':'Staying Clean + Linen Change','deep':'Deep Clean','moveout':'Move-out Clean'};
+let curBed='1-3',curSvc='checkout',addExtra=false,addGarbage=false;
+
+function updateCalc(){
+  const p=prices[curSvc][curBed];
+  let base=p[0];
+  if(addExtra)base+=300;
+  if(addGarbage)base+=300;
+  const hi=p[1]+(addExtra?300:0)+(addGarbage?300:0);
+  const bedLabel=curBed==='1-3'?'1–3 bed villa':'4–7 bed villa';
+  document.getElementById('calcPrice').textContent='฿'+base.toLocaleString()+(base<hi?'–฿'+hi.toLocaleString():'');
+  document.getElementById('calcNote').textContent=svcNames[curSvc]+' · '+bedLabel+'\nStarting price — final confirmed on-site';
+}
+
+document.querySelectorAll('#bedOpts .copt').forEach(b=>{
+  b.addEventListener('click',function(){
+    document.querySelectorAll('#bedOpts .copt').forEach(x=>x.classList.remove('on'));
+    this.classList.add('on');curBed=this.dataset.bed;updateCalc();
+  });
+});
+document.querySelectorAll('#svcOpts .copt').forEach(b=>{
+  b.addEventListener('click',function(){
+    document.querySelectorAll('#svcOpts .copt').forEach(x=>x.classList.remove('on'));
+    this.classList.add('on');curSvc=this.dataset.svc;updateCalc();
+  });
+});
+document.querySelectorAll('#addOpts .copt').forEach(b=>{
+  b.addEventListener('click',function(){
+    this.classList.toggle('on');
+    addExtra=document.querySelector('[data-add="extra-bed"]').classList.contains('on');
+    addGarbage=document.querySelector('[data-add="garbage"]').classList.contains('on');
+    updateCalc();
+  });
 });
 
-// Hamburger
-document.getElementById('hamburger').addEventListener('click', () => {
-  document.getElementById('mobileMenu').classList.toggle('open');
-});
-function closeMobile() { document.getElementById('mobileMenu').classList.remove('open'); }
-
-// Scroll animations
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); });
-}, { threshold: 0.1 });
-document.querySelectorAll('.service-card').forEach((el, i) => {
-  el.style.transitionDelay = (i * 0.1) + 's';
-  observer.observe(el);
-});
-
-// Form
-document.getElementById('contactForm').addEventListener('submit', function(e) {
+function bookCalc(e){
   e.preventDefault();
-  const name = document.getElementById('name').value;
-  const email = document.getElementById('email').value;
-  const service = document.getElementById('service').value;
-  const message = document.getElementById('message').value;
-  let text = `Hello Vida Group Samui!%0A%0A`;
-  if(name) text += `Name: ${name}%0A`;
-  if(email) text += `Email: ${email}%0A`;
-  if(service) text += `Service: ${service}%0A`;
-  if(message) text += `%0AMessage: ${message}`;
-  window.open(`https://wa.me/66993106665?text=${text}`, '_blank');
+  const svc=svcNames[curSvc];
+  const bed=curBed==='1-3'?'1-3 bedrooms':'4-7 bedrooms';
+  const extras=(addExtra?', extra bedroom':'')+(addGarbage?', garbage collection':'');
+  window.open('https://wa.me/66993106665?text=Hi Vida Group Samui!%0A%0AI would like to book:%0AService: '+svc+'%0AVilla size: '+bed+extras+'%0A%0APlease confirm availability and final price.','_blank');
+}
+
+// Chef booking
+function bookChef(service){
+  window.open('https://wa.me/66993106665?text=Hi Vida Group Samui!%0A%0AI would like to book:%0AService: '+encodeURIComponent(service)+'%0A%0APlease confirm availability and details.','_blank');
+}
+
+// Contact form
+document.getElementById('ctForm').addEventListener('submit',function(e){
+  e.preventDefault();
+  const n=document.getElementById('fn').value;
+  const em=document.getElementById('fe').value;
+  const s=document.getElementById('fs').value;
+  const m=document.getElementById('fm').value;
+  let t='Hi Vida Group Samui!%0A%0A';
+  if(n)t+='Name: '+encodeURIComponent(n)+'%0A';
+  if(em)t+='Email: '+encodeURIComponent(em)+'%0A';
+  if(s)t+='Service: '+encodeURIComponent(s)+'%0A';
+  if(m)t+='%0AMessage: '+encodeURIComponent(m);
+  window.open('https://wa.me/66993106665?text='+t,'_blank');
 });
 </script>
 </body>
