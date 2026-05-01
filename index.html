@@ -424,32 +424,67 @@ footer{background:var(--navy);padding:44px 60px;display:flex;align-items:center;
     <p class="ssub" style="margin:0 auto;text-align:center">All prices include chef, fresh ingredients, full service and clean-up. Minimum 24 hours notice required.</p>
   </div>
   <div class="chef-grid">
+    <!-- VILLA BREAKFAST -->
     <div class="ck rev">
       <div class="ck-emoji">🌅</div>
       <h3 class="ck-name">Villa Breakfast</h3>
-      <p class="ck-desc">Full breakfast service prepared and served at your villa. Fresh ingredients, hot dishes and everything cleaned up after.</p>
-      <div class="ck-prices">
-        <div class="ck-p"><strong>฿900</strong> / person</div>
+      <p class="ck-desc">Full breakfast prepared and served at your villa. Choose your style — Western or Thai. Everything included, all cleaned up after.</p>
+      <div style="margin-bottom:16px">
+        <div style="font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gray);margin-bottom:10px">Choose your style</div>
+        <div style="margin-bottom:12px;padding:14px;background:var(--offwhite)">
+          <div style="font-size:13px;font-weight:600;color:var(--navy);margin-bottom:4px">🍳 Western Breakfast</div>
+          <div style="font-size:12px;color:var(--gray);line-height:1.7">Two eggs your way · Buttered toast with jam · Fluffy pancakes · Tropical fruit platter · Fresh juice, coffee or tea<br><span style="color:var(--gold)">+ Choose one:</span> Bacon, Sausage & Hashbrown · Overnight Oats · Avocado & Smoked Salmon Toast</div>
+        </div>
+        <div style="padding:14px;background:var(--offwhite)">
+          <div style="font-size:13px;font-weight:600;color:var(--navy);margin-bottom:4px">🍚 Thai Breakfast</div>
+          <div style="font-size:12px;color:var(--gray);line-height:1.7">Crispy fried chicken · Steamed sticky rice · Warm rice congee · Golden Chinese donuts · Traditional Thai sweets · Tropical fruit platter</div>
+        </div>
       </div>
-      <p class="ck-pax">Minimum 2 persons</p>
-      <p class="ck-note">✓ Chef + ingredients + clean-up included</p>
-      <button class="ck-btn" onclick="bookChef('Villa Breakfast - ฿900/person (min 2)')">Book via WhatsApp →</button>
+      <div class="ck-prices"><div class="ck-p"><strong>฿900</strong> / person</div></div>
+      <p class="ck-pax">Minimum 2 persons · Service 7:30–10:30 AM</p>
+      <p class="ck-note">✓ Chef + ingredients + clean-up all included</p>
+      <button class="ck-btn" onclick="bookChef('Villa Breakfast - ฿900/person (min 2 pax)')">Book via WhatsApp →</button>
     </div>
+
+    <!-- FLOATING BREAKFAST -->
     <div class="ck rev">
       <div class="ck-emoji">🛁</div>
       <h3 class="ck-name">Floating Pool Breakfast</h3>
-      <p class="ck-desc">A romantic private breakfast tray set up in your pool. The iconic Koh Samui experience — for couples only.</p>
-      <div class="ck-prices">
-        <div class="ck-p"><strong>฿2,500</strong> / booking</div>
+      <p class="ck-desc">The iconic Koh Samui experience. A beautifully arranged breakfast tray floating in your private pool — for couples only. We set up and leave you to enjoy in complete privacy.</p>
+      <div style="margin-bottom:16px;padding:14px;background:var(--offwhite)">
+        <div style="font-size:13px;font-weight:600;color:var(--navy);margin-bottom:6px">What's included</div>
+        <div style="font-size:12px;color:var(--gray);line-height:1.8">Floating tray setup · 2 eggs your way · 2 sausages · 3 bacon · Toast · Pancakes · Fresh tropical fruits · Orange juice, coffee & tea · Tray collection at agreed time</div>
       </div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px">
+        <span style="font-size:11px;background:var(--offwhite);padding:5px 10px;color:var(--gray)">💍 Honeymoon</span>
+        <span style="font-size:11px;background:var(--offwhite);padding:5px 10px;color:var(--gray)">🎂 Anniversary</span>
+        <span style="font-size:11px;background:var(--offwhite);padding:5px 10px;color:var(--gray)">📸 Photo Shoot</span>
+      </div>
+      <div class="ck-prices"><div class="ck-p"><strong>฿2,500</strong> / booking</div></div>
       <p class="ck-pax">2 persons only · Fixed all-inclusive price</p>
-      <p class="ck-note">✓ Pool tray setup + chef + clean-up</p>
+      <p class="ck-note">✓ Want champagne or wine? Just mention it when booking</p>
       <button class="ck-btn" onclick="bookChef('Floating Pool Breakfast - ฿2,500 for 2 pax')">Book via WhatsApp →</button>
     </div>
+
+    <!-- THAI DINNER -->
     <div class="ck rev">
       <div class="ck-emoji">🍜</div>
       <h3 class="ck-name">Thai Set Dinner</h3>
-      <p class="ck-desc">An authentic Thai feast prepared in your villa. Multi-dish spread of classic Thai favourites — fully customized to your preferences.</p>
+      <p class="ck-desc">An authentic Thai feast in your villa. Build your own menu from our full dish list — starters, soups, salads and mains, all customized to your group.</p>
+      <div style="margin-bottom:16px">
+        <div style="font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gray);margin-bottom:10px">Chef's Signature Recommendation</div>
+        <div style="padding:14px;background:var(--offwhite);margin-bottom:14px">
+          <div style="font-size:12px;color:var(--gray);line-height:1.8">🥜 Chicken Satay · 🥗 Thai Papaya Salad · 🍤 Tom Yum Shrimp · 🍛 Massaman Curry · 🍚 Steamed Rice</div>
+        </div>
+        <div style="font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gray);margin-bottom:10px">Available dishes include</div>
+        <div style="font-size:12px;color:var(--gray);line-height:1.8;padding:0 2px">
+          <strong style="color:var(--navy)">Starters:</strong> Spring Rolls, Chicken Satay, Fried Chicken, Calamari<br>
+          <strong style="color:var(--navy)">Soups:</strong> Tom Yum, Tom Kha, Tom Jut<br>
+          <strong style="color:var(--navy)">Salads:</strong> Green Papaya, Sweet Corn, Cucumber, Greek<br>
+          <strong style="color:var(--navy)">Mains:</strong> Pad Thai, Green/Red/Massaman Curry, Pad Kapao, Pineapple Fried Rice, Sweet & Sour, Oyster Stir-fry<br>
+          <strong style="color:var(--navy)">Dessert:</strong> Mango Sticky Rice (฿120/person)
+        </div>
+      </div>
       <div class="ck-prices">
         <div class="ck-p">1–3 pax<br><strong>฿3,500</strong></div>
         <div class="ck-p">4–6 pax<br><strong>฿5,500</strong></div>
@@ -457,26 +492,36 @@ footer{background:var(--navy);padding:44px 60px;display:flex;align-items:center;
         <div class="ck-p">11–14 pax<br><strong>฿12,500</strong></div>
         <div class="ck-p">15–20 pax<br><strong>฿18,000</strong></div>
       </div>
-      <p class="ck-note">✓ Chef + ingredients + service + clean-up</p>
+      <p class="ck-pax">Service 6:00–9:00 PM · Seafood & beef upgrades available</p>
+      <p class="ck-note">✓ Chef + ingredients + service + clean-up all included</p>
       <button class="ck-btn" onclick="bookChef('Thai Set Dinner')">Book via WhatsApp →</button>
     </div>
+
+    <!-- BBQ -->
     <div class="ck rev">
       <div class="ck-emoji">🔥</div>
       <h3 class="ck-name">BBQ & Grill</h3>
-      <p class="ck-desc">Professional BBQ setup at your villa with full chef service and equipment. Ingredients selected à la carte separately.</p>
+      <p class="ck-desc">Professional BBQ chef and full equipment setup at your villa. Choose your chef service fee by group size, then add ingredients à la carte below.</p>
+      <div style="margin-bottom:16px;padding:14px;background:var(--offwhite)">
+        <div style="font-size:13px;font-weight:600;color:var(--navy);margin-bottom:6px">Included in service fee</div>
+        <div style="font-size:12px;color:var(--gray);line-height:1.8">Professional chef · BBQ equipment · Charcoal, gas, tongs, trays & skewer sticks · Full clean-up after<br><span style="color:var(--gold)">Optional:</span> BBQ Grill Rental +฿600 (if villa has no grill)</div>
+      </div>
       <div class="ck-prices">
         <div class="ck-p">1–3 pax<br><strong>฿2,500</strong></div>
         <div class="ck-p">4–6 pax<br><strong>฿3,500</strong></div>
         <div class="ck-p">7–9 pax<br><strong>฿5,000</strong></div>
         <div class="ck-p">10–12 pax<br><strong>฿7,000</strong></div>
       </div>
-      <p class="ck-note">✓ Chef + equipment + clean-up · Ingredients quoted separately</p>
+      <p class="ck-pax">Ingredients selected à la carte · +฿500 for remote villas or after 9 PM</p>
+      <p class="ck-note">✓ Chef service fee shown above · Ingredients quoted separately</p>
       <button class="ck-btn" onclick="bookChef('BBQ & Grill')">Book via WhatsApp →</button>
     </div>
   </div>
-  <div style="text-align:center;margin-top:48px;padding:28px;background:var(--white);max-width:640px;margin-left:auto;margin-right:auto">
-    <p style="font-size:13px;color:var(--gray);line-height:1.8">🛒 <strong style="color:var(--navy)">Grocery Shopping Service also available</strong> — we do the market run for you.<br>From ฿500 + market cost + 15% (location/access may affect fee)</p>
-    <button onclick="bookChef('Grocery Shopping Service')" class="ck-btn" style="margin-top:16px">Enquire about Grocery Service →</button>
+
+  <!-- FULL BOOKING LINK + GROCERY -->
+  <div style="text-align:center;margin-top:48px;display:flex;flex-direction:column;gap:16px;align-items:center">
+    <a href="https://vidagroupsamui.github.io/vidachef/vida_booking_final.html" target="_blank" class="btn-g" style="font-size:13px">Build Your Full Menu & Book Online →</a>
+    <p style="font-size:13px;color:var(--gray)">🛒 <strong style="color:var(--navy)">Grocery Shopping</strong> also available — we do the market run for you. From ฿500 + cost + 15%</p>
   </div>
 </section>
 
