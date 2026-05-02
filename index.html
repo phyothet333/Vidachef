@@ -1,801 +1,187 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- PRIMARY SEO -->
-<title>Vida Group Samui | Villa Cleaning, Private Chef & Property Services — Koh Samui</title>
-<meta name="description" content="Vida Group Samui — Premium villa property services in Koh Samui, Thailand. Villa cleaning, private chef, pool & garden maintenance, and property repairs. Call +66 99 310 6665.">
-<meta name="keywords" content="villa cleaning koh samui, private chef koh samui, pool maintenance koh samui, property management koh samui, housekeeping koh samui, villa services samui, property maintenance koh samui">
-<meta name="author" content="Vida Group Samui">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://www.vidagroupsamui.com/">
-
-<!-- OPEN GRAPH (Facebook, WhatsApp previews) -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.vidagroupsamui.com/">
-<meta property="og:title" content="Vida Group Samui | Premium Villa Property Services">
-<meta property="og:description" content="Villa cleaning, private chef, pool & garden and property maintenance in Koh Samui. Trusted by 23+ villa owners. Call +66 99 310 6665.">
-<meta property="og:image" content="https://images.unsplash.com/photo-1613977257592-4871e5fcd7c4?w=1200&q=85">
-<meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="Vida Group Samui">
-
-<!-- TWITTER CARD -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Vida Group Samui | Villa Property Services">
-<meta name="twitter:description" content="Premium villa cleaning, private chef, pool & garden and property maintenance in Koh Samui, Thailand.">
-<meta name="twitter:image" content="https://images.unsplash.com/photo-1613977257592-4871e5fcd7c4?w=1200&q=85">
-
-<!-- LOCAL BUSINESS SCHEMA (tells Google your business details) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Vida Group Samui",
-  "description": "Premium villa property services in Koh Samui, Thailand. Villa cleaning, private chef, pool & garden maintenance, and full property repairs.",
-  "url": "https://www.vidagroupsamui.com",
-  "telephone": "+66993106665",
-  "email": "info@vidagroupsamui.com",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Koh Samui",
-    "addressRegion": "Surat Thani",
-    "addressCountry": "TH"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": "9.5120",
-    "longitude": "100.0136"
-  },
-  "openingHoursSpecification": {
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
-    "opens": "09:00",
-    "closes": "17:00"
-  },
-  "priceRange": "฿฿",
-  "currenciesAccepted": "THB",
-  "areaServed": "Koh Samui",
-  "serviceType": ["Villa Cleaning","Private Chef","Pool Maintenance","Garden Maintenance","Property Maintenance","Villa Renovation"],
-  "sameAs": [
-    "https://www.vidagroupsamui.com"
-  ]
-}
-</script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Myanmar:wght@400;700&display=swap" rel="stylesheet">
 <style>
-*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
-:root{--navy:#0D1B2A;--gold:#C9A84C;--gold2:#E2C06A;--white:#fff;--offwhite:#F9F7F4;--gray:#8A8A8A;--lg:#E8E8E8}
-html{scroll-behavior:smooth}
-body{font-family:'Inter',sans-serif;color:#1A1A1A;background:var(--white);overflow-x:hidden}
-
-/* NAV */
-nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:center;justify-content:space-between;padding:28px 60px;transition:all .5s}
-nav.solid{background:var(--navy);padding:18px 60px;box-shadow:0 4px 40px rgba(0,0,0,.3)}
-.logo{font-family:'Playfair Display',serif;font-size:22px;color:#fff;text-decoration:none;letter-spacing:3px}
-.logo span{color:var(--gold)}
-.nav-links{display:flex;gap:32px;list-style:none}
-.nav-links a{color:rgba(255,255,255,.75);text-decoration:none;font-size:11px;font-weight:500;letter-spacing:1.5px;text-transform:uppercase;transition:color .3s}
-.nav-links a:hover{color:var(--gold)}
-.nav-cta{padding:10px 24px;border:1px solid var(--gold);color:var(--gold);text-decoration:none;font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;transition:all .3s}
-.nav-cta:hover{background:var(--gold);color:var(--navy)}
-.burger{display:none;flex-direction:column;gap:6px;cursor:pointer}
-.burger span{display:block;width:24px;height:1.5px;background:white}
-
-/* HERO */
-.hero{position:relative;height:100vh;min-height:680px;display:flex;align-items:center;overflow:hidden}
-.hero-slides{position:absolute;inset:0}
-.slide{position:absolute;inset:0;opacity:0;background-size:cover;background-position:center;transition:opacity 1.5s}
-.slide.active{opacity:1}
-.s1{background-image:url('https://images.unsplash.com/photo-1613977257592-4871e5fcd7c4?w=1800&q=85')}
-.s2{background-image:url('https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=1800&q=85')}
-.s3{background-image:url('https://images.unsplash.com/photo-1615571022219-eb45cf7faa9d?w=1800&q=85')}
-.hero-ov{position:absolute;inset:0;background:linear-gradient(105deg,rgba(13,27,42,.88) 0%,rgba(13,27,42,.4) 60%,rgba(13,27,42,.1) 100%)}
-.hero-c{position:relative;z-index:2;padding:0 60px;max-width:760px}
-.h-badge{display:inline-flex;align-items:center;gap:10px;margin-bottom:28px;opacity:0;animation:fu .8s .2s forwards}
-.h-line{width:36px;height:1px;background:var(--gold)}
-.h-badge span{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--gold);font-weight:500}
-.h-title{font-family:'Playfair Display',serif;font-size:clamp(52px,7vw,88px);font-weight:500;color:#fff;line-height:1.05;margin-bottom:24px;opacity:0;animation:fu .9s .4s forwards}
-.h-title em{color:var(--gold);font-style:italic}
-.h-sub{font-size:15px;font-weight:300;color:rgba(255,255,255,.7);line-height:1.8;max-width:480px;margin-bottom:44px;opacity:0;animation:fu .9s .6s forwards}
-.h-btns{display:flex;gap:16px;flex-wrap:wrap;opacity:0;animation:fu .9s .8s forwards}
-.btn-g{padding:16px 40px;background:var(--gold);color:var(--navy);text-decoration:none;font-size:12px;font-weight:600;letter-spacing:2px;text-transform:uppercase;transition:all .3s;display:inline-block;border:none;cursor:pointer;font-family:'Inter',sans-serif}
-.btn-g:hover{background:var(--gold2);transform:translateY(-2px)}
-.btn-o{padding:16px 40px;border:1px solid rgba(255,255,255,.4);color:#fff;text-decoration:none;font-size:12px;font-weight:600;letter-spacing:2px;text-transform:uppercase;transition:all .3s;display:inline-block}
-.btn-o:hover{border-color:var(--gold);color:var(--gold)}
-.h-scroll{position:absolute;bottom:36px;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:8px;z-index:2;opacity:0;animation:fu .8s 1.2s forwards}
-.h-scroll span{font-size:9px;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,.35)}
-.h-bar{width:1px;height:50px;background:linear-gradient(to bottom,var(--gold),transparent);animation:pulse 2s infinite}
-
-/* STRIP */
-.strip{background:var(--gold);padding:16px 60px;display:flex;gap:48px;align-items:center;justify-content:center;flex-wrap:wrap}
-.si{display:flex;align-items:center;gap:10px}
-.si svg{width:15px;height:15px;stroke:var(--navy);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
-.si span{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--navy)}
-
-/* SECTION HELPERS */
-.slbl{font-size:10px;letter-spacing:4px;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:14px}
-.stitle{font-family:'Playfair Display',serif;font-size:clamp(30px,4vw,46px);font-weight:500;color:var(--navy);margin-bottom:16px}
-.ssub{font-size:14px;color:var(--gray);line-height:1.8;max-width:500px}
-
-/* SERVICES */
-.services{padding:120px 60px;background:var(--offwhite)}
-.svc-hdr{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:72px;flex-wrap:wrap;gap:32px}
-.svc-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2px}
-.sc{background:var(--white);padding:48px 32px;position:relative;overflow:hidden;transition:all .4s;cursor:pointer}
-.sc::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:var(--gold);transform:scaleX(0);transform-origin:left;transition:transform .4s}
-.sc:hover::after{transform:scaleX(1)}
-.sc:hover{transform:translateY(-6px);box-shadow:0 24px 60px rgba(13,27,42,.1)}
-.sc-num{font-family:'Playfair Display',serif;font-size:60px;font-weight:400;color:rgba(13,27,42,.04);line-height:1;margin-bottom:20px}
-.sc-ico{width:40px;height:40px;margin-bottom:22px}
-.sc-ico svg{width:100%;height:100%;stroke:var(--gold);fill:none;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}
-.sc-name{font-family:'Playfair Display',serif;font-size:19px;font-weight:500;color:var(--navy);margin-bottom:12px}
-.sc-desc{font-size:13px;line-height:1.9;color:var(--gray);font-weight:300;margin-bottom:18px}
-.sc-from{font-size:11px;color:var(--gold);font-weight:600;letter-spacing:.5px}
-.sc-link{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold);background:none;border:none;cursor:pointer;font-family:'Inter',sans-serif;padding:0;margin-top:8px;display:block;text-align:left}
-
-/* CLEANING CALCULATOR */
-.calc-sec{background:var(--navy);padding:100px 60px}
-.calc-inner{max-width:960px;margin:0 auto}
-.calc-hdr{text-align:center;margin-bottom:56px}
-.calc-hdr .stitle{color:#fff}
-.calc-hdr .ssub{margin:0 auto;text-align:center;color:rgba(255,255,255,.45)}
-.calc-body{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}
-.clbl{font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:rgba(255,255,255,.35);margin-bottom:12px;display:block}
-.copts{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:32px}
-.copt{padding:10px 18px;border:1px solid rgba(255,255,255,.12);color:rgba(255,255,255,.5);font-size:13px;cursor:pointer;transition:all .3s;background:transparent;font-family:'Inter',sans-serif}
-.copt.on,.copt:hover{border-color:var(--gold);color:var(--gold);background:rgba(201,168,76,.07)}
-.calc-res{background:rgba(255,255,255,.04);border:1px solid rgba(201,168,76,.2);padding:40px;text-align:center}
-.cr-lbl{font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,.25);margin-bottom:12px}
-.cr-price{font-family:'Playfair Display',serif;font-size:52px;color:var(--gold);font-weight:400;line-height:1}
-.cr-note{font-size:12px;color:rgba(255,255,255,.25);margin-top:10px;line-height:1.7}
-.cr-btn{margin-top:28px;width:100%}
-.mgmt-banner{margin-top:48px;background:rgba(201,168,76,.08);border:1px solid rgba(201,168,76,.2);padding:28px 36px;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap}
-.mgmt-text h4{font-size:14px;font-weight:600;color:#fff;margin-bottom:4px}
-.mgmt-text p{font-size:13px;color:rgba(255,255,255,.4);line-height:1.6}
-.mgmt-text span{color:var(--gold)}
-
-/* CHEF MENU */
-.chef{padding:120px 60px;background:var(--offwhite)}
-.chef-hdr{text-align:center;margin-bottom:72px}
-.chef-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:2px;max-width:1060px;margin:0 auto}
-.ck{background:var(--white);padding:44px 40px;transition:all .3s;position:relative;overflow:hidden}
-.ck::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--gold);transform:scaleY(0);transform-origin:bottom;transition:transform .4s}
-.ck:hover::before{transform:scaleY(1)}
-.ck:hover{box-shadow:0 20px 60px rgba(13,27,42,.07);transform:translateX(3px)}
-.ck-emoji{font-size:28px;margin-bottom:14px}
-.ck-name{font-family:'Playfair Display',serif;font-size:22px;font-weight:500;color:var(--navy);margin-bottom:8px}
-.ck-desc{font-size:13px;color:var(--gray);line-height:1.8;font-weight:300;margin-bottom:20px}
-.ck-prices{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
-.ck-p{background:var(--offwhite);padding:8px 14px;font-size:12px;color:var(--navy)}
-.ck-p strong{color:var(--gold);font-family:'Playfair Display',serif;font-size:16px}
-.ck-pax{font-size:12px;color:var(--gray);margin-bottom:18px}
-.ck-note{font-size:11px;color:var(--gray);font-style:italic;margin-bottom:18px}
-.ck-btn{padding:10px 24px;border:1px solid var(--lg);color:var(--navy);font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;cursor:pointer;font-family:'Inter',sans-serif;background:none;transition:all .3s}
-.ck-btn:hover{border-color:var(--gold);color:var(--gold)}
-
-/* WHY */
-.why{display:grid;grid-template-columns:1fr 1fr;min-height:580px}
-.why-img{background:url('https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=1000&q=85') center/cover no-repeat}
-.why-c{background:var(--navy);padding:96px 80px;display:flex;flex-direction:column;justify-content:center}
-.why-c .stitle{color:#fff}
-.wlist{margin-top:44px;display:flex;flex-direction:column;gap:30px}
-.wi{display:flex;gap:20px;align-items:flex-start}
-.wi-n{font-family:'Playfair Display',serif;font-size:30px;color:rgba(201,168,76,.18);font-weight:400;line-height:1;flex-shrink:0;width:40px}
-.wi-t h4{font-size:12px;font-weight:600;color:#fff;letter-spacing:.5px;margin-bottom:5px;text-transform:uppercase}
-.wi-t p{font-size:13px;color:rgba(255,255,255,.35);line-height:1.8;font-weight:300}
-
-/* STATS */
-.stats{background:var(--offwhite);display:grid;grid-template-columns:repeat(4,1fr);gap:2px}
-.stb{background:var(--white);padding:52px 40px;text-align:center}
-.stn{font-family:'Playfair Display',serif;font-size:52px;font-weight:400;color:var(--navy);line-height:1}
-.stn span{color:var(--gold)}
-.stl{font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gray);margin-top:10px;font-weight:500}
-
-/* TESTI */
-.testi{background:var(--navy);padding:96px 60px;text-align:center}
-.t-stars{display:flex;justify-content:center;gap:4px;margin-bottom:28px}
-.t-stars span{color:var(--gold);font-size:16px}
-.t-q{font-family:'Playfair Display',serif;font-size:clamp(18px,2.5vw,28px);font-weight:400;color:#fff;line-height:1.7;max-width:780px;margin:0 auto 24px;font-style:italic}
-.t-a{font-size:11px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold)}
-
-/* CONTACT */
-.contact{padding:120px 60px;background:var(--white)}
-.ct-in{max-width:1080px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:96px;align-items:start}
-.ct-desc{font-size:14px;color:var(--gray);line-height:1.9;margin-bottom:44px;font-weight:300}
-.cinfo{display:flex;flex-direction:column;gap:22px}
-.ci-row{display:flex;align-items:center;gap:16px}
-.ci-ico{width:46px;height:46px;background:var(--offwhite);display:flex;align-items:center;justify-content:center;flex-shrink:0}
-.ci-ico svg{width:18px;height:18px;stroke:var(--gold);fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
-.ci-lbl{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gray);margin-bottom:2px}
-.ci-val{font-size:14px;color:var(--navy);font-weight:500;text-decoration:none;display:block}
-.ci-val:hover{color:var(--gold)}
-.ct-form{background:var(--offwhite);padding:52px}
-.ft{font-family:'Playfair Display',serif;font-size:24px;color:var(--navy);margin-bottom:32px}
-.fg{margin-bottom:22px}
-.fl{display:block;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gray);margin-bottom:9px}
-.fi,.fs,.fta{width:100%;padding:13px 0;border:none;border-bottom:1px solid var(--lg);background:transparent;font-family:'Inter',sans-serif;font-size:14px;color:var(--navy);outline:none;transition:border-color .3s}
-.fi:focus,.fs:focus,.fta:focus{border-bottom-color:var(--gold)}
-.fta{height:85px;resize:none}
-.frow{display:grid;grid-template-columns:1fr 1fr;gap:22px}
-.fsub{width:100%;margin-top:8px;padding:16px;background:var(--navy);color:#fff;border:none;font-family:'Inter',sans-serif;font-size:11px;font-weight:600;letter-spacing:2px;text-transform:uppercase;cursor:pointer;transition:all .3s}
-.fsub:hover{background:var(--gold);color:var(--navy)}
-
-/* FOOTER */
-footer{background:var(--navy);padding:44px 60px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:18px;border-top:1px solid rgba(201,168,76,.1)}
-.fl-logo{font-family:'Playfair Display',serif;font-size:19px;color:#fff;letter-spacing:3px}
-.fl-logo span{color:var(--gold)}
-.fl-links{display:flex;gap:26px}
-.fl-links a{font-size:11px;letter-spacing:1px;text-transform:uppercase;color:rgba(255,255,255,.22);text-decoration:none;transition:color .3s}
-.fl-links a:hover{color:var(--gold)}
-.fl-copy{font-size:11px;color:rgba(255,255,255,.18)}
-
-/* WA BTN */
-.wa{position:fixed;bottom:28px;right:28px;z-index:999;width:56px;height:56px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 32px rgba(37,211,102,.4);text-decoration:none;transition:transform .3s}
-.wa:hover{transform:scale(1.1)}
-.wa svg{width:26px;height:26px;fill:white}
-
-/* MOBILE */
-.mob-nav{display:none;position:fixed;inset:0;background:var(--navy);z-index:190;flex-direction:column;align-items:center;justify-content:center;gap:36px}
-.mob-nav.open{display:flex}
-.mob-nav a{font-family:'Playfair Display',serif;font-size:34px;color:#fff;text-decoration:none}
-.mob-nav a:hover{color:var(--gold)}
-
-/* MODAL */
-.moverlay{display:none;position:fixed;inset:0;background:rgba(13,27,42,.88);z-index:500;align-items:center;justify-content:center;padding:20px}
-.moverlay.open{display:flex}
-.mdl{background:#fff;max-width:640px;width:100%;max-height:88vh;overflow-y:auto;position:relative}
-.mdl-close{position:absolute;top:18px;right:22px;background:none;border:none;font-size:22px;cursor:pointer;color:var(--gray);z-index:10;line-height:1}
-.mdl-hd{background:var(--navy);padding:36px 44px 28px;position:sticky;top:0;z-index:5}
-.mdl-lbl{font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:8px}
-.mdl-title{font-family:'Playfair Display',serif;font-size:26px;color:#fff;font-weight:500}
-.mdl-body{padding:36px 44px}
-.pr-sec{margin-bottom:32px}
-.pr-sec-t{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gray);margin-bottom:14px;padding-bottom:8px;border-bottom:1px solid var(--lg)}
-.pr-row{display:flex;justify-content:space-between;align-items:center;padding:11px 0;border-bottom:1px solid rgba(232,232,232,.5)}
-.pr-row:last-child{border:none}
-.pr-name{font-size:14px;color:var(--navy)}
-.pr-det{font-size:12px;color:var(--gray);margin-top:2px}
-.pr-val{font-family:'Playfair Display',serif;font-size:17px;color:var(--gold);white-space:nowrap;margin-left:16px;flex-shrink:0}
-.mdl-note{font-size:12px;color:var(--gray);text-align:center;margin-top:24px;line-height:1.7;padding:16px;background:var(--offwhite)}
-.mdl-cta{margin-top:20px;text-align:center}
-
-@keyframes fu{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
-@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
-.rev{opacity:0;transform:translateY(28px);transition:opacity .7s,transform .7s}
-.rev.vis{opacity:1;transform:translateY(0)}
-
-@media(max-width:1100px){.svc-grid{grid-template-columns:repeat(2,1fr)}.why{grid-template-columns:1fr}.why-img{height:360px}.stats{grid-template-columns:repeat(2,1fr)}.ct-in{grid-template-columns:1fr;gap:56px}.calc-body{grid-template-columns:1fr}.chef-grid{grid-template-columns:1fr}}
-@media(max-width:768px){nav,nav.solid{padding:20px 24px}.nav-links,.nav-cta{display:none}.burger{display:flex}.hero-c{padding:0 24px}.strip{padding:14px 24px;gap:20px;justify-content:flex-start;overflow-x:auto;flex-wrap:nowrap}.services,.chef,.contact,.testi{padding:80px 24px}.calc-sec{padding:80px 24px}.svc-hdr{flex-direction:column;align-items:flex-start}.svc-grid,.chef-grid{grid-template-columns:1fr}.why-c{padding:64px 24px}.stats{padding:0}.ct-form{padding:32px 20px}.frow{grid-template-columns:1fr}footer{padding:32px 24px;flex-direction:column;text-align:center}.fl-links{justify-content:center}.mgmt-banner{flex-direction:column;text-align:center}.mdl-hd,.mdl-body{padding:28px 24px}}
+@page { size: A4 landscape; margin: 8mm; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Noto Sans Myanmar', sans-serif; background: white; width: 277mm; }
+.title { background: #1e3250; color: white; text-align: center; padding: 9px; font-size: 18px; font-weight: 700; }
+.legend { background: #f5f5f0; padding: 6px 12px; display: flex; gap: 28px; align-items: center; border-bottom: 1px solid #ccc; }
+.legend-item { display: flex; align-items: center; gap: 7px; font-size: 12px; color: #444; }
+.dot { width: 15px; height: 15px; border-radius: 3px; display: inline-block; flex-shrink: 0; }
+table { width: 100%; border-collapse: collapse; table-layout: fixed; }
+col.time-col { width: 54px; }
+th { background: #1e3250; color: white; padding: 8px 3px; font-size: 14px; font-weight: 700; text-align: center; border: 1px solid #2a4070; line-height: 1.3; }
+td { border: 1px solid #ccc; vertical-align: top; padding: 0; height: 50px; }
+.time-td { background: #fafafa; text-align: center; vertical-align: middle; font-size: 9.5px; color: #777; line-height: 1.4; padding: 2px; }
+.cell { padding: 4px 5px 3px 7px; height: 100%; border-left: 3px solid transparent; }
+.busy { background: #B5D4F4; border-left-color: #185FA5; }
+.busy .vname { font-weight: 700; font-size: 12px; color: #0C447C; line-height: 1.3; }
+.busy .vtime { font-size: 10px; color: #185FA5; margin-top: 2px; }
+.free-td { background: #EAF3DE; border-left: 3px solid #639922; text-align: center; vertical-align: middle; }
+.free-td .flabel { font-weight: 700; font-size: 13px; color: #27500A; }
+.dayoff-td { background: #FFF3CD; border-left: 3px solid #FFA500; text-align: center; vertical-align: middle; }
+.dayoff-td .dlabel { font-weight: 700; font-size: 11px; color: #7a4f00; }
+.travel { background: #F1EFE8; border-left-color: #B4B2A9; }
+.travel .vname { font-size: 11px; color: #5F5E5A; line-height: 1.3; }
+.travel .vtime { font-size: 10px; color: #999; margin-top: 2px; }
+.cont-td { background: #B5D4F4; border: 1px solid #ccc; }
+.lunch-row td { background: #e0e0e0; text-align: center; vertical-align: middle; font-weight: 700; font-size: 14px; color: #444; height: 28px; border: 1px solid #bbb; }
+.lunch-row .time-td { background: #e0e0e0; font-size: 9px; color: #666; }
+.footer { background: #1e3250; color: white; text-align: center; padding: 6px; font-size: 10.5px; }
 </style>
 </head>
 <body>
-
-<nav id="nav">
-  <a href="#" class="logo">VIDA<span>.</span></a>
-  <ul class="nav-links">
-    <li><a href="#services">Services</a></li>
-    <li><a href="#pricing">Pricing</a></li>
-    <li><a href="#chef">Private Chef</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-  <a href="#contact" class="nav-cta">Get a Quote</a>
-  <div class="burger" id="burger"><span></span><span></span><span></span></div>
-</nav>
-
-<div class="mob-nav" id="mobNav">
-  <a href="#services" onclick="closeMob()">Services</a>
-  <a href="#pricing" onclick="closeMob()">Pricing</a>
-  <a href="#chef" onclick="closeMob()">Private Chef</a>
-  <a href="#about" onclick="closeMob()">About</a>
-  <a href="#contact" onclick="closeMob()">Contact</a>
+<div class="title">Vida Group — Garden &amp; Pool Schedule</div>
+<div class="legend">
+  <div class="legend-item"><span class="dot" style="background:#B5D4F4;border:1.5px solid #185FA5"></span>အလုပ်</div>
+  <div class="legend-item"><span class="dot" style="background:#F1EFE8;border:1.5px solid #B4B2A9"></span>ဆိုင်ကယ်မောင်း</div>
+  <div class="legend-item"><span class="dot" style="background:#EAF3DE;border:1.5px solid #639922"></span>Free</div>
+  <div class="legend-item"><span class="dot" style="background:#FFF3CD;border:1.5px solid #FFA500"></span>Day Off (လဲလှယ်)</div>
 </div>
+<table>
+<colgroup>
+  <col class="time-col">
+  <col><col><col><col><col><col><col>
+</colgroup>
+<thead>
+<tr>
+  <th>အချိန်</th>
+  <th>တနင်္လာ</th><th>အင်္ဂါ ⭐</th><th>ဗုဒ္ဓဟူး</th><th>ကြာသပတေး</th><th>သောကြာ</th><th>စနေ</th><th>တနင်္ဂနွေ</th>
+</tr>
+</thead>
+<tbody>
 
-<!-- HERO -->
-<section class="hero">
-  <div class="hero-slides">
-    <div class="slide s1 active"></div>
-    <div class="slide s2"></div>
-    <div class="slide s3"></div>
-  </div>
-  <div class="hero-ov"></div>
-  <div class="hero-c">
-    <div class="h-badge"><div class="h-line"></div><span>Koh Samui, Thailand</span></div>
-    <h1 class="h-title">Vida Group<br><em>Samui</em></h1>
-    <p class="h-sub">Your complete villa property services in Koh Samui. Cleaning, private chef, pool & garden, and full property maintenance — all under one trusted team.</p>
-    <div class="h-btns">
-      <a href="#pricing" class="btn-g">See Pricing</a>
-      <a href="#contact" class="btn-o">Get in Touch</a>
-    </div>
-  </div>
-  <div class="h-scroll"><div class="h-bar"></div><span>Scroll</span></div>
-</section>
+<!-- 08:00-08:45 -->
+<tr>
+  <td class="time-td">08:00<br>08:45</td>
+  <td><div class="cell busy"><div class="vname">A9 Bangpor</div><div class="vtime">08:00–09:30</div></div></td>
+  <td><div class="cell busy"><div class="vname">Ban Tai Villa</div><div class="vtime">08:00–08:45</div></div></td>
+  <td><div class="cell busy"><div class="vname">Villa 6 Bo Phut</div><div class="vtime">08:00–09:30</div></div></td>
+  <td><div class="cell busy"><div class="vname">A9 Bangpor</div><div class="vtime">08:00–09:30</div></div></td>
+  <td class="free-td"><div class="flabel">Free</div></td>
+  <td><div class="cell busy"><div class="vname">Ban Tai Villa</div><div class="vtime">08:00–08:45</div></div></td>
+  <td class="free-td"><div class="flabel">Free</div></td>
+</tr>
 
-<!-- STRIP -->
-<div class="strip">
-  <div class="si"><svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg><span>5+ Years in Samui</span></div>
-  <div class="si"><svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg><span>23+ Villas Managed</span></div>
-  <div class="si"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg><span>Dedicated Team</span></div>
-  <div class="si"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><span>100% Satisfaction</span></div>
-</div>
+<!-- 08:45-09:30 -->
+<tr>
+  <td class="time-td">08:45<br>09:30</td>
+  <td class="cont-td"></td>
+  <td class="dayoff-td"><div class="dlabel">Day Off</div></td>
+  <td class="cont-td"></td>
+  <td class="cont-td"></td>
+  <td class="free-td"><div class="flabel">Free</div></td>
+  <td class="free-td"><div class="flabel">Free</div></td>
+  <td class="free-td"><div class="flabel">Free</div></td>
+</tr>
 
-<!-- SERVICES -->
-<section class="services" id="services">
-  <div class="svc-hdr rev">
-    <div>
-      <p class="slbl">What We Offer</p>
-      <h2 class="stitle">Our Services</h2>
-      <p class="ssub">Everything your villa needs managed by one reliable team. No need to juggle multiple vendors.</p>
-    </div>
-    <a href="#contact" class="btn-g">Request a Service</a>
-  </div>
-  <div class="svc-grid">
-    <div class="sc rev">
-      <div class="sc-num">01</div>
-      <div class="sc-ico"><svg viewBox="0 0 48 48"><path d="M24 4L4 20v24h12V32h16v12h12V20L24 4z"/></svg></div>
-      <h3 class="sc-name">Villa Cleaning</h3>
-      <p class="sc-desc">Daily housekeeping, checkout cleans, deep cleaning and move-out cleans. Tailored to your villa's schedule and standards.</p>
-      <p class="sc-from">From ฿1,000</p>
-      <button class="sc-link" onclick="openModal('cleaning')">View full pricing →</button>
-    </div>
-    <div class="sc rev">
-      <div class="sc-num">02</div>
-      <div class="sc-ico"><svg viewBox="0 0 48 48"><path d="M8 40h32M16 40V24M32 40V24M4 24h40M24 8l-6 6h12l-6-6z"/></svg></div>
-      <h3 class="sc-name">Private Chef</h3>
-      <p class="sc-desc">In-villa breakfast, Thai set dinners and BBQ & grill experiences. Ingredients, chef and full clean-up included.</p>
-      <p class="sc-from">From ฿900/person</p>
-      <button class="sc-link" onclick="document.getElementById('chef').scrollIntoView({behavior:'smooth'})">View menu & pricing →</button>
-    </div>
-    <div class="sc rev">
-      <div class="sc-num">03</div>
-      <div class="sc-ico"><svg viewBox="0 0 48 48"><circle cx="24" cy="22" r="12"/><path d="M24 10V4M14 14l-4-4M34 14l4-4M12 22H6M42 22h-6M14 30l-4 4M34 30l4 4M24 34v8"/></svg></div>
-      <h3 class="sc-name">Pool & Garden</h3>
-      <p class="sc-desc">Weekly pool cleaning, chemical balancing, tropical garden care and landscaping. All-inclusive monthly packages available.</p>
-      <p class="sc-from">From ฿2,000/month</p>
-      <button class="sc-link" onclick="openModal('pool')">View full pricing →</button>
-    </div>
-    <div class="sc rev">
-      <div class="sc-num">04</div>
-      <div class="sc-ico"><svg viewBox="0 0 48 48"><rect x="6" y="6" width="36" height="36" rx="2"/><path d="M16 22h16M16 30h10M34 26l6 6-6 6"/></svg></div>
-      <h3 class="sc-name">Property Maintenance</h3>
-      <p class="sc-desc">AC servicing, electrical, plumbing, painting, carpentry and full renovation. One call, we handle it all.</p>
-      <p class="sc-from">From ฿500 visit fee</p>
-      <button class="sc-link" onclick="openModal('maintenance')">View full pricing →</button>
-    </div>
-  </div>
-</section>
+<!-- 09:30-10:00 -->
+<tr>
+  <td class="time-td">09:30<br>10:00</td>
+  <td><div class="cell travel"><div class="vname">ဆိုင်ကယ်မောင်း</div><div class="vtime">→ Bo Phut</div></div></td>
+  <td class="dayoff-td"><div class="dlabel">Day Off</div></td>
+  <td><div class="cell travel"><div class="vname">ဆိုင်ကယ်မောင်း</div><div class="vtime">→ Bangpor</div></div></td>
+  <td><div class="cell travel"><div class="vname">ဆိုင်ကယ်မောင်း</div><div class="vtime">→ Bo Phut</div></div></td>
+  <td class="free-td"><div class="flabel">Free</div></td>
+  <td><div class="cell travel"><div class="vname">ဆိုင်ကယ်မောင်း</div><div class="vtime">→ Bangpor</div></div></td>
+  <td class="free-td"><div class="flabel">Free</div></td>
+</tr>
 
-<!-- CLEANING CALCULATOR -->
-<section class="calc-sec" id="pricing">
-  <div class="calc-inner">
-    <div class="calc-hdr rev">
-      <p class="slbl" style="color:var(--gold)">Cleaning Pricing</p>
-      <h2 class="stitle" style="color:#fff;margin-bottom:12px">Instant Price Estimate</h2>
-      <p class="ssub" style="color:rgba(255,255,255,.4);margin:0 auto;text-align:center">Select your villa size and service type to get an instant estimate.</p>
-    </div>
-    <div class="calc-body rev">
-      <div>
-        <span class="clbl">Villa Size</span>
-        <div class="copts" id="bedOpts">
-          <button class="copt on" data-bed="1-3">1–3 Bedrooms</button>
-          <button class="copt" data-bed="4-7">4–7 Bedrooms</button>
-        </div>
-        <span class="clbl">Service Type</span>
-        <div class="copts" id="svcOpts">
-          <button class="copt on" data-svc="checkout">Checkout Clean</button>
-          <button class="copt" data-svc="staying-no">Staying Clean</button>
-          <button class="copt" data-svc="staying-yes">Staying + Linen Change</button>
-          <button class="copt" data-svc="deep">Deep Clean</button>
-          <button class="copt" data-svc="moveout">Move-out Clean</button>
-        </div>
-        <span class="clbl">Add-ons</span>
-        <div class="copts" id="addOpts">
-          <button class="copt" data-add="extra-bed">+ Extra Bedroom (฿300)</button>
-          <button class="copt" data-add="garbage">+ Garbage Collection (฿300)</button>
-        </div>
-      </div>
-      <div class="calc-res">
-        <div class="cr-lbl">Estimated Price</div>
-        <div class="cr-price" id="calcPrice">฿1,200</div>
-        <div class="cr-note" id="calcNote">Checkout clean · 1–3 bed villa<br>Starting price — final confirmed on-site</div>
-        <a href="#" class="btn-g cr-btn" id="calcBook" onclick="bookCalc(event)">Book via WhatsApp →</a>
-      </div>
-    </div>
-    <!-- MANAGEMENT BANNER -->
-    <div class="mgmt-banner rev">
-      <div class="mgmt-text">
-        <h4>🏢 Property Manager or Management Company?</h4>
-        <p>Managing <span>3 or more villas</span>? We offer special discounted rates and priority scheduling for property management companies. Contact us to discuss a custom package.</p>
-      </div>
-      <a href="https://wa.me/66993106665?text=Hi Vida Group, I manage multiple villas and would like to discuss management rates." target="_blank" class="btn-g" style="white-space:nowrap;flex-shrink:0">Get Special Rates →</a>
-    </div>
-  </div>
-</section>
+<!-- 10:00-10:45 -->
+<tr>
+  <td class="time-td">10:00<br>10:45</td>
+  <td><div class="cell busy"><div class="vname">Just Us Then (CCTV)</div><div class="vtime">10:00–10:45</div></div></td>
+  <td><div class="cell busy"><div class="vname">Dahlia</div><div class="vtime">10:00–10:45</div></div></td>
+  <td class="free-td"><div class="flabel">Free</div></td>
+  <td><div class="cell busy"><div class="vname">Just Us Then (CCTV)</div><div class="vtime">10:00–10:45</div></div></td>
+  <td class="free-td"><div class="flabel">Free</div></td>
+  <td><div class="cell busy"><div class="vname">Dahlia</div><div class="vtime">10:00–10:45</div></div></td>
+  <td class="free-td"><div class="flabel">Free</div></td>
+</tr>
 
-<!-- PRIVATE CHEF MENU -->
-<section class="chef" id="chef">
-  <div class="chef-hdr rev">
-    <p class="slbl">In-Villa Dining</p>
-    <h2 class="stitle">Private Chef Menu</h2>
-    <p class="ssub" style="margin:0 auto;text-align:center">All prices include chef, fresh ingredients, full service and clean-up. Minimum 24 hours notice required.</p>
-  </div>
-  <div class="chef-grid">
-    <!-- VILLA BREAKFAST -->
-    <div class="ck rev">
-      <div class="ck-emoji">🌅</div>
-      <h3 class="ck-name">Villa Breakfast</h3>
-      <p class="ck-desc">Full breakfast prepared and served at your villa. Choose your style — Western or Thai. Everything included, all cleaned up after.</p>
-      <div style="margin-bottom:16px">
-        <div style="font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gray);margin-bottom:10px">Choose your style</div>
-        <div style="margin-bottom:12px;padding:14px;background:var(--offwhite)">
-          <div style="font-size:13px;font-weight:600;color:var(--navy);margin-bottom:4px">🍳 Western Breakfast</div>
-          <div style="font-size:12px;color:var(--gray);line-height:1.7">Two eggs your way · Buttered toast with jam · Fluffy pancakes · Tropical fruit platter · Fresh juice, coffee or tea<br><span style="color:var(--gold)">+ Choose one:</span> Bacon, Sausage & Hashbrown · Overnight Oats · Avocado & Smoked Salmon Toast</div>
-        </div>
-        <div style="padding:14px;background:var(--offwhite)">
-          <div style="font-size:13px;font-weight:600;color:var(--navy);margin-bottom:4px">🍚 Thai Breakfast</div>
-          <div style="font-size:12px;color:var(--gray);line-height:1.7">Crispy fried chicken · Steamed sticky rice · Warm rice congee · Golden Chinese donuts · Traditional Thai sweets · Tropical fruit platter</div>
-        </div>
-      </div>
-      <div class="ck-prices"><div class="ck-p"><strong>฿900</strong> / person</div></div>
-      <p class="ck-pax">Minimum 2 persons · Service 7:30–10:30 AM</p>
-      <p class="ck-note">✓ Chef + ingredients + clean-up all included</p>
-      <a href="https://vidagroupsamui.com/chef" target="_blank" class="ck-btn" style="display:inline-block;text-decoration:none;text-align:center">Book & Build Menu →</a>
-    </div>
+<!-- 10:45-11:15 -->
+<tr>
+  <td class="time-td">10:45<br>11:15</td>
+  <td class="free-td"><div class="flabel">Free</div></td>
+  <td class="dayoff-td"><div class="dlabel">Day Off</div></td>
+  <td class="free-td"><div class="flabel">Free</div></td>
+  <td class="free-td"><div class="flabel">Free</div></td>
+  <td class="free-td"><div class="flabel">Free</div></td>
+  <td class="free-td"><div class="flabel">Free</div></td>
+  <td class="free-td"><div class="flabel">Free</div></td>
+</tr>
 
-    <!-- FLOATING BREAKFAST -->
-    <div class="ck rev">
-      <div class="ck-emoji">🛁</div>
-      <h3 class="ck-name">Floating Pool Breakfast</h3>
-      <p class="ck-desc">The iconic Koh Samui experience. A beautifully arranged breakfast tray floating in your private pool — for couples only. We set up and leave you to enjoy in complete privacy.</p>
-      <div style="margin-bottom:16px;padding:14px;background:var(--offwhite)">
-        <div style="font-size:13px;font-weight:600;color:var(--navy);margin-bottom:6px">What's included</div>
-        <div style="font-size:12px;color:var(--gray);line-height:1.8">Floating tray setup · 2 eggs your way · 2 sausages · 3 bacon · Toast · Pancakes · Fresh tropical fruits · Orange juice, coffee & tea · Tray collection at agreed time</div>
-      </div>
-      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px">
-        <span style="font-size:11px;background:var(--offwhite);padding:5px 10px;color:var(--gray)">💍 Honeymoon</span>
-        <span style="font-size:11px;background:var(--offwhite);padding:5px 10px;color:var(--gray)">🎂 Anniversary</span>
-        <span style="font-size:11px;background:var(--offwhite);padding:5px 10px;color:var(--gray)">📸 Photo Shoot</span>
-      </div>
-      <div class="ck-prices"><div class="ck-p"><strong>฿2,500</strong> / booking</div></div>
-      <p class="ck-pax">2 persons only · Fixed all-inclusive price</p>
-      <p class="ck-note">✓ Want champagne or wine? Just mention it when booking</p>
-      <a href="https://vidagroupsamui.com/chef" target="_blank" class="ck-btn" style="display:inline-block;text-decoration:none;text-align:center">Book & Build Menu →</a>
-    </div>
+<!-- 11:15-13:15 -->
+<tr>
+  <td class="time-td">11:15<br>13:15</td>
+  <td><div class="cell busy"><div class="vname">Villa 6 Bo Phut</div><div class="vtime">11:15–12:45</div></div></td>
+  <td class="dayoff-td"><div class="dlabel">Day Off</div></td>
+  <td class="free-td"><div class="flabel">Free</div></td>
+  <td class="free-td"><div class="flabel">Free</div></td>
+  <td class="free-td"><div class="flabel">Free</div></td>
+  <td><div class="cell busy"><div class="vname">Bubbles / 4 Villas</div><div class="vtime">11:15–13:15</div></div></td>
+  <td class="free-td"><div class="flabel">Free</div></td>
+</tr>
 
-    <!-- THAI DINNER -->
-    <div class="ck rev">
-      <div class="ck-emoji">🍜</div>
-      <h3 class="ck-name">Thai Set Dinner</h3>
-      <p class="ck-desc">An authentic Thai feast in your villa. Build your own menu from our full dish list — starters, soups, salads and mains, all customized to your group.</p>
-      <div style="margin-bottom:16px">
-        <div style="font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gray);margin-bottom:10px">Chef's Signature Recommendation</div>
-        <div style="padding:14px;background:var(--offwhite);margin-bottom:14px">
-          <div style="font-size:12px;color:var(--gray);line-height:1.8">🥜 Chicken Satay · 🥗 Thai Papaya Salad · 🍤 Tom Yum Shrimp · 🍛 Massaman Curry · 🍚 Steamed Rice</div>
-        </div>
-        <div style="font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gray);margin-bottom:10px">Available dishes include</div>
-        <div style="font-size:12px;color:var(--gray);line-height:1.8;padding:0 2px">
-          <strong style="color:var(--navy)">Starters:</strong> Spring Rolls, Chicken Satay, Fried Chicken, Calamari<br>
-          <strong style="color:var(--navy)">Soups:</strong> Tom Yum, Tom Kha, Tom Jut<br>
-          <strong style="color:var(--navy)">Salads:</strong> Green Papaya, Sweet Corn, Cucumber, Greek<br>
-          <strong style="color:var(--navy)">Mains:</strong> Pad Thai, Green/Red/Massaman Curry, Pad Kapao, Pineapple Fried Rice, Sweet & Sour, Oyster Stir-fry<br>
-          <strong style="color:var(--navy)">Dessert:</strong> Mango Sticky Rice (฿120/person)
-        </div>
-      </div>
-      <div class="ck-prices">
-        <div class="ck-p">1–3 pax<br><strong>฿3,500</strong></div>
-        <div class="ck-p">4–6 pax<br><strong>฿5,500</strong></div>
-        <div class="ck-p">7–10 pax<br><strong>฿9,000</strong></div>
-        <div class="ck-p">11–14 pax<br><strong>฿12,500</strong></div>
-        <div class="ck-p">15–20 pax<br><strong>฿18,000</strong></div>
-      </div>
-      <p class="ck-pax">Service 6:00–9:00 PM · Seafood & beef upgrades available</p>
-      <p class="ck-note">✓ Chef + ingredients + service + clean-up all included</p>
-      <a href="https://vidagroupsamui.com/chef" target="_blank" class="ck-btn" style="display:inline-block;text-decoration:none;text-align:center">Book & Build Menu →</a>
-    </div>
+<!-- 12:45-13:15 -->
+<tr>
+  <td class="time-td">12:45<br>13:15</td>
+  <td class="free-td"><div class="flabel">Free</div></td>
+  <td class="dayoff-td"><div class="dlabel">Day Off</div></td>
+  <td class="free-td"><div class="flabel">Free</div></td>
+  <td class="free-td"><div class="flabel">Free</div></td>
+  <td class="free-td"><div class="flabel">Free</div></td>
+  <td class="cont-td"></td>
+  <td class="free-td"><div class="flabel">Free</div></td>
+</tr>
 
-    <!-- BBQ -->
-    <div class="ck rev">
-      <div class="ck-emoji">🔥</div>
-      <h3 class="ck-name">BBQ & Grill</h3>
-      <p class="ck-desc">Professional BBQ chef and full equipment setup at your villa. Choose your chef service fee by group size, then add ingredients à la carte below.</p>
-      <div style="margin-bottom:16px;padding:14px;background:var(--offwhite)">
-        <div style="font-size:13px;font-weight:600;color:var(--navy);margin-bottom:6px">Included in service fee</div>
-        <div style="font-size:12px;color:var(--gray);line-height:1.8">Professional chef · BBQ equipment · Charcoal, gas, tongs, trays & skewer sticks · Full clean-up after<br><span style="color:var(--gold)">Optional:</span> BBQ Grill Rental +฿600 (if villa has no grill)</div>
-      </div>
-      <div class="ck-prices">
-        <div class="ck-p">1–3 pax<br><strong>฿2,500</strong></div>
-        <div class="ck-p">4–6 pax<br><strong>฿3,500</strong></div>
-        <div class="ck-p">7–9 pax<br><strong>฿5,000</strong></div>
-        <div class="ck-p">10–12 pax<br><strong>฿7,000</strong></div>
-      </div>
-      <p class="ck-pax">Ingredients selected à la carte · +฿500 for remote villas or after 9 PM</p>
-      <p class="ck-note">✓ Chef service fee shown above · Ingredients quoted separately</p>
-      <a href="https://vidagroupsamui.com/chef" target="_blank" class="ck-btn" style="display:inline-block;text-decoration:none;text-align:center">Book & Build Menu →</a>
-    </div>
-  </div>
+<!-- Lunch -->
+<tr class="lunch-row">
+  <td class="time-td">13:15<br>14:15</td>
+  <td colspan="7">ထမင်းစားနား</td>
+</tr>
 
-  <!-- FULL BOOKING LINK + GROCERY -->
-  <div style="text-align:center;margin-top:48px;display:flex;flex-direction:column;gap:16px;align-items:center">
-    <a href="https://vidagroupsamui.com/chef" target="_blank" class="btn-g" style="font-size:13px">Build Your Full Menu & Book Online →</a>
-    <p style="font-size:13px;color:var(--gray)">🛒 <strong style="color:var(--navy)">Grocery Shopping</strong> also available — we do the market run for you. From ฿500 + cost + 15%</p>
-  </div>
-</section>
+<!-- 14:15-15:45 -->
+<tr>
+  <td class="time-td">14:15<br>15:45</td>
+  <td><div class="cell busy"><div class="vname">Bo Phut (တောင်ပေါ်)</div><div class="vtime">14:15–16:15</div></div></td>
+  <td class="dayoff-td"><div class="dlabel">Day Off</div></td>
+  <td><div class="cell busy"><div class="vname">Aqua 306</div><div class="vtime">14:15–15:45</div></div></td>
+  <td class="free-td"><div class="flabel">Free</div></td>
+  <td class="free-td"><div class="flabel">Free</div></td>
+  <td class="free-td"><div class="flabel">Free</div></td>
+  <td><div class="cell busy"><div class="vname">Aqua 306</div><div class="vtime">14:15–15:45</div></div></td>
+</tr>
 
-<!-- WHY -->
-<section class="why" id="about">
-  <div class="why-img"></div>
-  <div class="why-c">
-    <p class="slbl">Why Choose Us</p>
-    <h2 class="stitle">Your Trusted Partner<br>in Paradise</h2>
-    <div class="wlist">
-      <div class="wi"><div class="wi-n">01</div><div class="wi-t"><h4>One Team, Everything Covered</h4><p>No need to manage multiple vendors. From cleaning to renovation — one call, one team, full accountability.</p></div></div>
-      <div class="wi"><div class="wi-n">02</div><div class="wi-t"><h4>Trusted by Villa Owners</h4><p>We manage 23+ villas across Koh Samui. Owners trust us to care for their most valuable assets.</p></div></div>
-      <div class="wi"><div class="wi-n">03</div><div class="wi-t"><h4>Always Responsive</h4><p>Fast WhatsApp replies, reliable scheduling and consistent quality every visit.</p></div></div>
-      <div class="wi"><div class="wi-n">04</div><div class="wi-t"><h4>Koh Samui Specialists</h4><p>5+ years on the island. We know the villas, the climate and exactly what it takes to maintain them.</p></div></div>
-    </div>
-  </div>
-</section>
+<!-- 15:15-16:15 -->
+<tr>
+  <td class="time-td">15:45<br>17:00</td>
+  <td class="cont-td"></td>
+  <td class="dayoff-td"><div class="dlabel">Day Off</div></td>
+  <td><div class="cell busy"><div class="vname">Ross Lamai</div><div class="vtime">15:45–16:45</div></div></td>
+  <td class="free-td"><div class="flabel">Free</div></td>
+  <td class="free-td"><div class="flabel">Free</div></td>
+  <td class="free-td"><div class="flabel">Free</div></td>
+  <td><div class="cell busy"><div class="vname">Ross Lamai → Lamai Villa</div><div class="vtime">15:45–17:15</div></div></td>
+</tr>
 
-<!-- STATS -->
-<div class="stats">
-  <div class="stb rev"><div class="stn">5<span>+</span></div><div class="stl">Years Experience</div></div>
-  <div class="stb rev"><div class="stn">23<span>+</span></div><div class="stl">Villas Served</div></div>
-  <div class="stb rev"><div class="stn">4</div><div class="stl">Core Services</div></div>
-  <div class="stb rev"><div class="stn">100<span>%</span></div><div class="stl">Satisfaction</div></div>
-</div>
+<!-- 16:15-17:00 -->
+<tr>
+  <td class="time-td">16:15<br>17:00</td>
+  <td class="free-td"><div class="flabel">Free</div></td>
+  <td class="dayoff-td"><div class="dlabel">Day Off</div></td>
+  <td class="free-td"><div class="flabel">Free</div></td>
+  <td class="free-td"><div class="flabel">Free</div></td>
+  <td class="free-td"><div class="flabel">Free</div></td>
+  <td class="free-td"><div class="flabel">Free</div></td>
+  <td class="cont-td"></td>
+</tr>
 
-<!-- TESTIMONIAL -->
-<section class="testi">
-  <div class="t-stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
-  <p class="t-q">"Vida Group Samui has been managing our villas for years. The team is professional, reliable and genuinely cares about the properties. We wouldn't trust anyone else."</p>
-  <p class="t-a">— Adam K., Villa Portfolio Owner, Koh Samui</p>
-</section>
-
-<!-- CONTACT -->
-<section class="contact" id="contact">
-  <div class="ct-in">
-    <div class="rev">
-      <p class="slbl">Get in Touch</p>
-      <h2 class="stitle">Let's Discuss<br>Your Villa</h2>
-      <p class="ct-desc">Whether you need a one-time clean, a private dining experience, or full property management — we're ready to help.</p>
-      <div class="cinfo">
-        <div class="ci-row">
-          <div class="ci-ico"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.02 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92v2z"/></svg></div>
-          <div><div class="ci-lbl">Phone & WhatsApp</div><a href="tel:+66993106665" class="ci-val">+66 99 310 6665</a></div>
-        </div>
-        <div class="ci-row">
-          <div class="ci-ico"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
-          <div><div class="ci-lbl">Email</div><a href="mailto:info@vidagroupsamui.com" class="ci-val">info@vidagroupsamui.com</a></div>
-        </div>
-        <div class="ci-row">
-          <div class="ci-ico"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-          <div><div class="ci-lbl">Location</div><span class="ci-val">Koh Samui, Surat Thani, Thailand</span></div>
-        </div>
-      </div>
-    </div>
-    <div class="ct-form rev">
-      <h3 class="ft">Send Us a Message</h3>
-      <form id="ctForm">
-        <div class="frow">
-          <div class="fg"><label class="fl">Name</label><input type="text" class="fi" id="fn" placeholder="Your name"></div>
-          <div class="fg"><label class="fl">Email</label><input type="email" class="fi" id="fe" placeholder="Your email"></div>
-        </div>
-        <div class="fg">
-          <label class="fl">Service Needed</label>
-          <select class="fs" id="fs">
-            <option value="">Select a service</option>
-            <option>Villa Cleaning</option>
-            <option>Private Chef</option>
-            <option>Pool & Garden</option>
-            <option>Property Maintenance</option>
-            <option>Property Management (3+ villas)</option>
-            <option>Multiple Services</option>
-          </select>
-        </div>
-        <div class="fg"><label class="fl">Message</label><textarea class="fta" id="fm" placeholder="Tell us about your villa and what you need..."></textarea></div>
-        <button type="submit" class="fsub">Send via WhatsApp →</button>
-      </form>
-    </div>
-  </div>
-</section>
-
-<!-- FOOTER -->
-<footer>
-  <div class="fl-logo">VIDA<span>.</span></div>
-  <div class="fl-links">
-    <a href="#services">Services</a>
-    <a href="#pricing">Pricing</a>
-    <a href="#chef">Private Chef</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-  </div>
-  <p class="fl-copy">&copy; 2026 Vida Group Samui Co., Ltd.</p>
-</footer>
-
-<!-- PRICING MODALS -->
-<div class="moverlay" id="modal-cleaning">
-  <div class="mdl">
-    <button class="mdl-close" onclick="closeModal('cleaning')">✕</button>
-    <div class="mdl-hd"><div class="mdl-lbl">Housekeeping</div><div class="mdl-title">Cleaning Pricing Guide</div></div>
-    <div class="mdl-body">
-      <div class="pr-sec">
-        <div class="pr-sec-t">Checkout Cleaning</div>
-        <div class="pr-row"><div><div class="pr-name">1–3 Bedroom Villa</div><div class="pr-det">All rooms, bathrooms, kitchen, living areas</div></div><div class="pr-val">฿1,200–1,800</div></div>
-        <div class="pr-row"><div><div class="pr-name">4–7 Bedroom Villa</div><div class="pr-det">Full villa clean, price varies by size</div></div><div class="pr-val">From ฿2,000</div></div>
-        <div class="pr-row"><div><div class="pr-name">Extra Bedroom (add-on)</div><div class="pr-det">Beyond standard villa size</div></div><div class="pr-val">From ฿300</div></div>
-      </div>
-      <div class="pr-sec">
-        <div class="pr-sec-t">Regular / Staying Cleans</div>
-        <div class="pr-row"><div><div class="pr-name">Staying Clean — No Linen Change</div><div class="pr-det">Tidy, surfaces, bathrooms, floors</div></div><div class="pr-val">From ฿1,000</div></div>
-        <div class="pr-row"><div><div class="pr-name">Staying Clean — With Linen Change</div><div class="pr-det">Same as checkout clean price</div></div><div class="pr-val">Checkout rate</div></div>
-      </div>
-      <div class="pr-sec">
-        <div class="pr-sec-t">Deep & Move-Out Cleans</div>
-        <div class="pr-row"><div><div class="pr-name">Deep Clean</div><div class="pr-det">Appliances, tiles, grout, fixtures</div></div><div class="pr-val">From ฿2,500</div></div>
-        <div class="pr-row"><div><div class="pr-name">Move-out / End-of-Tenancy</div><div class="pr-det">Full villa at end of long stay</div></div><div class="pr-val">From ฿2,500</div></div>
-      </div>
-      <div class="pr-sec">
-        <div class="pr-sec-t">Additional Services</div>
-        <div class="pr-row"><div><div class="pr-name">Garbage Collection</div><div class="pr-det">Weekly pickup & disposal</div></div><div class="pr-val">฿300/visit · ฿1,500/month</div></div>
-        <div class="pr-row"><div><div class="pr-name">Laundry — Standard Linen Set</div><div class="pr-det">Per bedroom: sheets, duvet, pillowcases, towels</div></div><div class="pr-val">฿300/set</div></div>
-      </div>
-      <div class="mdl-note">All prices are starting prices. Final price confirmed before work begins based on villa size and condition. <strong>Managing 3+ villas?</strong> Contact us for special management rates.</div>
-      <div class="mdl-cta"><a href="https://wa.me/66993106665?text=Hi, I'd like to book a cleaning service." target="_blank" class="btn-g">Book via WhatsApp</a></div>
-    </div>
-  </div>
-</div>
-
-<div class="moverlay" id="modal-pool">
-  <div class="mdl">
-    <button class="mdl-close" onclick="closeModal('pool')">✕</button>
-    <div class="mdl-hd"><div class="mdl-lbl">Pool & Garden</div><div class="mdl-title">Pool & Garden Pricing</div></div>
-    <div class="mdl-body">
-      <div class="pr-sec">
-        <div class="pr-sec-t">Pool Service</div>
-        <div class="pr-row"><div><div class="pr-name">Monthly Pool Service</div><div class="pr-det">4 visits/month · cleaning, skimming, brushing, equipment check</div></div><div class="pr-val">From ฿2,000/mo</div></div>
-        <div class="pr-row"><div><div class="pr-name">Pool Chemicals</div><div class="pr-det">Chlorine, pH balance, algaecide as needed</div></div><div class="pr-val">Cost + 15%</div></div>
-      </div>
-      <div class="pr-sec">
-        <div class="pr-sec-t">Garden Service</div>
-        <div class="pr-row"><div><div class="pr-name">Monthly Garden Service</div><div class="pr-det">4 visits/month · mowing, trimming, tidying, watering</div></div><div class="pr-val">From ฿2,000/mo</div></div>
-      </div>
-      <div class="mdl-note">Pool chemicals billed separately at cost + 15%. Additional visits quoted on request. Bundle pool + garden for best rates.</div>
-      <div class="mdl-cta"><a href="https://wa.me/66993106665?text=Hi, I'd like to enquire about pool and garden services." target="_blank" class="btn-g">Enquire via WhatsApp</a></div>
-    </div>
-  </div>
-</div>
-
-<div class="moverlay" id="modal-maintenance">
-  <div class="mdl">
-    <button class="mdl-close" onclick="closeModal('maintenance')">✕</button>
-    <div class="mdl-hd"><div class="mdl-lbl">Property Maintenance</div><div class="mdl-title">Maintenance Pricing</div></div>
-    <div class="mdl-body">
-      <div class="pr-sec">
-        <div class="pr-sec-t">Visit / Inspection Fee</div>
-        <div class="pr-row"><div><div class="pr-name">Standard Visit (9AM–5PM)</div><div class="pr-det">Mon–Sun, any issue — AC, electrical, plumbing, handyman</div></div><div class="pr-val">฿500</div></div>
-        <div class="pr-row"><div><div class="pr-name">After Hours / Next Day Rush</div><div class="pr-det">After 5PM · Before 9AM · Same-day urgent</div></div><div class="pr-val">฿800</div></div>
-      </div>
-      <div class="pr-sec">
-        <div class="pr-sec-t">Air Conditioning</div>
-        <div class="pr-row"><div><div class="pr-name">Full AC Clean</div><div class="pr-det">Indoor + outdoor unit</div></div><div class="pr-val">From ฿1,000</div></div>
-        <div class="pr-row"><div><div class="pr-name">Gas Top-Up (R32/R410a)</div><div class="pr-det">Per unit</div></div><div class="pr-val">From ฿1,000</div></div>
-        <div class="pr-row"><div><div class="pr-name">Bi-Annual AC Package</div><div class="pr-det">Per unit every 6 months · full clean + gas top-up + inspection</div></div><div class="pr-val">From ฿1,500/unit</div></div>
-      </div>
-      <div class="pr-sec">
-        <div class="pr-sec-t">General Repairs & Renovation</div>
-        <div class="pr-row"><div><div class="pr-name">All Repair Work</div><div class="pr-det">Electrical, plumbing, painting, carpentry, renovation</div></div><div class="pr-val">Quoted on-site</div></div>
-        <div class="pr-row"><div><div class="pr-name">Parts & Materials</div><div class="pr-det">All parts at market cost</div></div><div class="pr-val">Cost + 20%</div></div>
-      </div>
-      <div class="pr-sec">
-        <div class="pr-sec-t">Pest Control</div>
-        <div class="pr-row"><div><div class="pr-name">Annual Pest Control Contract</div><div class="pr-det">Insects, cockroaches, ants, mosquito fogging, rodents</div></div><div class="pr-val">From ฿15,000/yr</div></div>
-      </div>
-      <div class="mdl-note">Visit fee applies to all ad-hoc calls. All repair work assessed and approved before proceeding. No visit fee for scheduled bi-annual AC package.</div>
-      <div class="mdl-cta"><a href="https://wa.me/66993106665?text=Hi, I need property maintenance assistance." target="_blank" class="btn-g">Call for Assistance →</a></div>
-    </div>
-  </div>
-</div>
-
-<!-- WA BTN -->
-<a href="https://wa.me/66993106665" target="_blank" class="wa" aria-label="WhatsApp">
-  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-</a>
-
-<script>
-// Nav scroll
-window.addEventListener('scroll',()=>document.getElementById('nav').classList.toggle('solid',scrollY>60));
-
-// Burger
-document.getElementById('burger').addEventListener('click',()=>document.getElementById('mobNav').classList.toggle('open'));
-function closeMob(){document.getElementById('mobNav').classList.remove('open')}
-
-// Slideshow
-let si=0;const slides=document.querySelectorAll('.slide');
-setInterval(()=>{slides[si].classList.remove('active');si=(si+1)%slides.length;slides[si].classList.add('active');},5000);
-
-// Reveal
-const ro=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('vis');ro.unobserve(e.target)}});},{threshold:0.08});
-document.querySelectorAll('.rev').forEach((el,i)=>{el.style.transitionDelay=(i%4*.1)+'s';ro.observe(el);});
-
-// MODALS
-function openModal(id){document.getElementById('modal-'+id).classList.add('open');document.body.style.overflow='hidden'}
-function closeModal(id){document.getElementById('modal-'+id).classList.remove('open');document.body.style.overflow=''}
-document.querySelectorAll('.moverlay').forEach(m=>m.addEventListener('click',function(e){if(e.target===this){this.classList.remove('open');document.body.style.overflow=''}}));
-
-// CALCULATOR
-const prices={
-  'checkout':{'1-3':[1200,1800],'4-7':[2000,3000]},
-  'staying-no':{'1-3':[1000,1400],'4-7':[1500,2500]},
-  'staying-yes':{'1-3':[1200,1800],'4-7':[2000,3000]},
-  'deep':{'1-3':[2500,3500],'4-7':[3500,5000]},
-  'moveout':{'1-3':[2500,3500],'4-7':[3500,5500]}
-};
-const svcNames={'checkout':'Checkout Clean','staying-no':'Staying Clean (no linen)','staying-yes':'Staying Clean + Linen Change','deep':'Deep Clean','moveout':'Move-out Clean'};
-let curBed='1-3',curSvc='checkout',addExtra=false,addGarbage=false;
-
-function updateCalc(){
-  const p=prices[curSvc][curBed];
-  let base=p[0];
-  if(addExtra)base+=300;
-  if(addGarbage)base+=300;
-  const hi=p[1]+(addExtra?300:0)+(addGarbage?300:0);
-  const bedLabel=curBed==='1-3'?'1–3 bed villa':'4–7 bed villa';
-  document.getElementById('calcPrice').textContent='฿'+base.toLocaleString()+(base<hi?'–฿'+hi.toLocaleString():'');
-  document.getElementById('calcNote').textContent=svcNames[curSvc]+' · '+bedLabel+'\nStarting price — final confirmed on-site';
-}
-
-document.querySelectorAll('#bedOpts .copt').forEach(b=>{
-  b.addEventListener('click',function(){
-    document.querySelectorAll('#bedOpts .copt').forEach(x=>x.classList.remove('on'));
-    this.classList.add('on');curBed=this.dataset.bed;updateCalc();
-  });
-});
-document.querySelectorAll('#svcOpts .copt').forEach(b=>{
-  b.addEventListener('click',function(){
-    document.querySelectorAll('#svcOpts .copt').forEach(x=>x.classList.remove('on'));
-    this.classList.add('on');curSvc=this.dataset.svc;updateCalc();
-  });
-});
-document.querySelectorAll('#addOpts .copt').forEach(b=>{
-  b.addEventListener('click',function(){
-    this.classList.toggle('on');
-    addExtra=document.querySelector('[data-add="extra-bed"]').classList.contains('on');
-    addGarbage=document.querySelector('[data-add="garbage"]').classList.contains('on');
-    updateCalc();
-  });
-});
-
-function bookCalc(e){
-  e.preventDefault();
-  const svc=svcNames[curSvc];
-  const bed=curBed==='1-3'?'1-3 bedrooms':'4-7 bedrooms';
-  const extras=(addExtra?', extra bedroom':'')+(addGarbage?', garbage collection':'');
-  window.open('https://wa.me/66993106665?text=Hi Vida Group Samui!%0A%0AI would like to book:%0AService: '+svc+'%0AVilla size: '+bed+extras+'%0A%0APlease confirm availability and final price.','_blank');
-}
-
-// Chef booking
-function bookChef(service){
-  window.open('https://wa.me/66993106665?text=Hi Vida Group Samui!%0A%0AI would like to book:%0AService: '+encodeURIComponent(service)+'%0A%0APlease confirm availability and details.','_blank');
-}
-
-// Contact form
-document.getElementById('ctForm').addEventListener('submit',function(e){
-  e.preventDefault();
-  const n=document.getElementById('fn').value;
-  const em=document.getElementById('fe').value;
-  const s=document.getElementById('fs').value;
-  const m=document.getElementById('fm').value;
-  let t='Hi Vida Group Samui!%0A%0A';
-  if(n)t+='Name: '+encodeURIComponent(n)+'%0A';
-  if(em)t+='Email: '+encodeURIComponent(em)+'%0A';
-  if(s)t+='Service: '+encodeURIComponent(s)+'%0A';
-  if(m)t+='%0AMessage: '+encodeURIComponent(m);
-  window.open('https://wa.me/66993106665?text='+t,'_blank');
-});
-</script>
+</tbody>
+</table>
+<div class="footer">⭐ အင်္ဂါ = Day Off (Ban Tai Villa + Dahlia သာ လဲလှယ်သွား) &nbsp;|&nbsp; Aqua 306 (Chaweng Noi) ဗုဒ္ဓဟူး + တနင်္ဂနွေ (၄ ရက် ခြား) &nbsp;|&nbsp; Lamai Villa တနင်္ဂနွေ</div>
 </body>
 </html>
